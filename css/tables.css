@@ -1,0 +1,37 @@
+table {
+    border: 1px solid #c8c6c6;
+    border-radius:3px;
+    border-collapse: collapse;
+}
+table th {
+    padding:21px 25px 22px 25px;
+    border: 1px solid #c8c6c6;
+
+}
+table tr {
+    padding-left:20px;
+}
+table td {
+    padding:18px;
+    border: 1px solid #c8c6c6;
+}
+
+blockquote {
+    border-left: .25em solid #dfe2e5;
+    color: #7e8893;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: normal;
+}
+.post_element {
+    margin-bottom: 30px;
+}
+.post_element:last-of-type {
+    margin-bottom: 0px;
+}
+.content_preview>*{
+    display: none;
+}
+.content_preview>p:first-child{
+    display: block;
+}

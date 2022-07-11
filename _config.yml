@@ -1,0 +1,50 @@
+# Site settings
+title: ALPS Lab
+email: jdegen@stanford.edu
+description: >
+  interActive Language Processing Lab at Stanford
+  (ALPS Lab for short)
+url: "https://alpslab.stanford.edu/"
+github_username:  thegricean
+
+# plugins: ['jekyll/scholar']
+
+max_year: 2022 #the most recent year with papers published
+# i should figure out how to automate that...
+
+# # Build settings
+# markdown: kramdown
+# markdown: redcarpet
+# redcarpet:
+#   extensions: ["tables","no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+# for BibTeX
+# scholar:
+#   style: apa
+#   locale: en
+#
+#   sort_by: year
+#   order: descending
+#
+#   bibliography_list_tag: ul
+#
+#   source: ./_bibliography
+#   bibliography: alpslab
+#   bibliography_template: <p>{{reference}} {{entry.annote}}</p>
+#
+#   replace_strings: true
+#   join_strings:    true
+#
+#   details_dir:    bibliography
+#   details_layout: bibtex.html
+#   details_link:   "[Abstract/BibTeX]"
+#
+#   query: "@*"
+
+exclude:
+  - "files"
+  - "wikiuploads"
+
+keep_files:
+  - "files"
+  - "wikiuploads"

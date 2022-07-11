@@ -1,0 +1,118 @@
+- role: Principal investigator
+  people:
+    - name: Judith Degen
+      img: judith.jpg
+      webpage: //www.stanford.edu/people/jdegen
+      bio:
+        - >
+          Judith did her undergrad and MSc work in Cognitive Science at the University of Osnabrück and her PhD work in Brain & Cognitive Sciences and Linguistics at the University of Rochester. She is interested in how people construct meaning in communication. She spends her time thinking about how to characterize the interaction of linguistic information, context, and world knowledge in language production and comprehension.
+
+- role: Graduate students
+  people:
+
+    - name: Jiayi Lu
+      webpage: https://lu-jiayi.github.io/homepage/
+      img: jiayi.jpg
+      bio:
+        - >
+          Jiayi did his undergraduate study in Linguistics, Neuroscience, and Integrated Sciences at Northwestern University before coming to Stanford. Jiayi is primarily interested in psycholinguistics and syntax. Specifically, he is interested in exploring the various factors that affect sentence acceptability judgments, and how experimental methods can inform syntactic theories.
+
+    - name: Eva Portelance
+      webpage:  https://web.stanford.edu/~portelan/
+      img: eva.jpg
+      bio:
+        - >
+          Eva completed a B.A. Honours in Linguistics and Computer Science at McGill University in 2017. She is interested in linguistic structure and computational modeling of language learning both in humans and machines.
+
+    - name: Brandon Waldon
+      webpage: https://bwaldon.github.io/
+      img: brandon.jpg
+      bio:
+        - >
+          Brandon did his BA in Linguistics at the University of Chicago before spending a year as a visiting student researcher at Leibniz-ZAS Berlin. He is interested in experimental approaches to semantics and pragmatics, corpus linguistics, and philosophy of language.
+
+    - name: Bran Papineau
+      webpage: https://www.branpap.com
+      img: bran.jpg
+      bio:
+        - >
+          Bran is a second-year PhD student of Linguistics. Their interests include language and gender, language and music, and socio- and psycholinguistics more broadly. They also occasionally enjoy straying into morphology, and their current QP deals with English gender morphology and social ideologies. They also enjoy the language-learning side of linguistics, and have studied Spanish, Faroese, Russian, Mandarin, and Greek.
+
+    - name: Anthony Velasquez
+      img: tony.jpg
+      bio:
+        - >
+          Tony is a second-year PhD student in Linguistics. He is interested in sociolinguistics, especially third-wave variationist work, and the intersection between social and semantic/pragmatic meaning, as well as exploring how an understanding of language as socially and cognitively embedded can provide paths forward in modelling language behavior. His current work focuses on Bayesian modelling of the impacts of social information on semantic interpretation.
+
+    - name: Jesús Adolfo Hermosillo
+      webpage: https://adolfohermosillo.github.io/
+      img: adolfo.jpg
+      bio:
+        - >
+          Adolfo is a 2nd year PhD student in the Department of Linguistics. He is interested in computational linguistics, semantics, sociolinguistics and multilingualism. He uses computational and experimental methods to answer questions about meaning and linguistic variation.
+
+- role: Masters students
+  people:
+    - name: Leyla Kursat
+      img: leyla.jpg
+      bio:
+        - >
+          Leyla studied Cognitive and Brain Sciences at Tufts University. She is interested how general properties of cognition, our perception and representation of the world shape the way we construct meaning.
+
+    - name: Dhara Yu
+      img: dhara.jpg
+      webpage: https://dharakyu.com/
+      bio:
+        - >
+          Dhara is a current master's student in Computer Science and research assistant in the ALPS Lab. She recently graduated with a B.S. in Symbolic Systems, also from Stanford. She is interested in the computational modeling of pragmatic language, with the goal of imparting machine intelligence with more human-like linguistic reasoning abilities.
+
+    - name: Dean Manko
+      img: dean.jpg
+      bio:
+        - >
+          Dean studied linguistics and psychology for his undergraduate degree at Stanford, and is currently pursuing a Master's degree in Symbolic Systems. He is interested in the relationship between psycholinguistics and sociolinguistics — his undergraduate thesis looked at the relationship between social ideologies and linguistic processing, research which he is continuing this year.
+
+    - name: Penny Pan
+      img: penny.jpg
+      bio:
+        - >
+          Penny received her B.A. in Cognitive Science from Vassar College and is currently a master’s student in the Symbolic Systems program at Stanford. She is interested in using computational models as well as behavioral experiments to study how people process language. Her work focuses on psycholinguistics, pragmatics, and bilingualism.
+
+- role: Lab Manager
+  people:
+    - name: Stefan Pophristic
+      img: stefan.jpg
+      webpage: https://www.pophristic.com/
+      bio:
+        - >
+          Stefan studied Linguistics and Cognitive Science at the University of Pennsylvania. His main research interests are in morphology, psycholinguistics, and language acquisition. He will be starting his Ph.D. this upcoming Fall at NYU. 
+
+- role: Lab Alumni
+  people:
+    - name: Sebastian Schuster
+      webpage: //sebschu.com
+      img: sebastian.jpg
+
+    - name: Ciyang Qing
+      webpage: //sites.google.com/site/qciyang/
+      img: ciyang.jpg
+
+    - name: Masoud Jasbi
+      webpage: https://jasbi.github.io/
+      img: masoud.jpg
+
+    - name: Daisy Leigh
+      webpage: //web.stanford.edu/~ddleigh/
+      img: daisy.jpg
+
+    - name: Morgan Moyer
+      img: morgan.jpg
+      webpage: //morganmoyer.net
+
+    - name: Michael Hahn
+      webpage: //web.stanford.edu/~mhahn2/
+      img: michael.jpg
+
+    - name: Elisa Kreiss
+      webpage: http://elisakreiss.com/
+      img: elisa.jpg

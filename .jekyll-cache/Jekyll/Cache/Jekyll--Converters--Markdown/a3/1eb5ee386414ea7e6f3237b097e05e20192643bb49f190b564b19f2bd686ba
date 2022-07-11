@@ -1,0 +1,35 @@
+I"-<h2 id="models">Models</h2>
+
+<ul>
+  <li><a href="https://bwaldon.shinyapps.io/crossling-ref/">Interactive demonstration of Waldon &amp; Degen (2021) models</a></li>
+  <li><a href="https://shiny.alps.science/ekreiss/contrastive_inference/">Interactive demonstration of Kreiss &amp; Degen (2020) models</a></li>
+</ul>
+
+<h2 id="tutorials">Tutorials</h2>
+
+<ul>
+  <li><a href="https://sebschu.github.io/web-based-experiments/">Running Web-based Experiments</a></li>
+  <li><a href="//gscontras.github.io/probLang/">Probabilistic Language Understanding</a></li>
+  <li><a href="https://github.com/thegricean/LINGUIST245">LINGUIST 245 Methods in Psycholinguistics notes</a></li>
+</ul>
+
+<h2 id="software">Software</h2>
+
+<ul>
+  <li><a href="http://localhost:4000/tdtlite.html">TDTlite – the TGrep2 Database Tools for searching syntactically parsed corpora</a></li>
+</ul>
+
+<h2 id="internal">Internal</h2>
+
+<ul>
+  <li><a href="https://asconfluence.stanford.edu/confluence/display/ALPSLAB/ALPS+Lab+Home">ALPS Lab Wiki</a></li>
+  <li>Sign up for our <a href="//mailman.stanford.edu/mailman/listinfo/alps-lab-all">Mailing List</a> for talk announcements</li>
+</ul>
+
+<h2 id="related-groups">Related Groups</h2>
+
+<ul>
+  <li><a href="//langcog.stanford.edu/">LangCogLab</a></li>
+  <li><a href="//cocolab.stanford.edu/">CoCoLab</a></li>
+</ul>
+:ET

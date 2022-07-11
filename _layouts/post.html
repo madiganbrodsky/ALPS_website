@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h2>{{ page.title }}</h2>
+    <big><i> {% if page.author %} {{ page.author }}{% endif %}{% if page.meta %} {{ page.meta }}{% endif %} </i>
+    </big> <br>
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>
