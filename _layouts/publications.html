@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<html>
+
+  <body>
+
+    {%- assign allOutput = site.data.bibliography -%}
+
+
+    <h2> Publications </h2>
+
+    {%- assign currentYear =  'now' | date: "%Y"  -%}
+    {% for year in (2011..currentYear) reversed %}
+
+      <h2>{{year}}</h2>
+      {%- for output in allOutput -%}
+        {%- if output.year == year -%}
+          {%- if output.type == "article" -%}
+            {%- assign publicationName = output.journal -%}
+          {%- else -%}
+            {%- assign publicationName = output.booktitle -%}
+          {%- endif -%}
+
+          <p>
+            {%- if output.website != null -%}
+              <a href="{{ output.website }}">{{ output.title }}</a>.
+            {%- else -%}
+              {{ output.title }}.
+            {%- endif -%}
+
+            &nbsp;{{ output.author }}. ({{ output.year }}).
+            In <i>{{ publicationName }}</i>.
+
+            {%- if output.doi -%}
+            &nbsp doi:
+            {%- endif -%}
+            {{ output.doi }}
+            &nbsp
+            <a onclick="showOutput('abstract_{{ output.id | slugify }}')">[abstract]</a>
+            <a href="{{ output.preprint }}">[preprint]</a>
+            <a class="publicationButton" onclick="showOutput('bibtex_{{ output.id | slugify }}')">[bibtex]</a>
+          </p>
+
+          <div id="abstract_{{ output.id | slugify }}" style="display:none">
+            <p>{{output.abstract}}</p>
+          </div>
+          <div id="bibtex_{{ output.id | slugify }}" style="display:none">
+
+            @{{ output.type }}{ {{ output.id }},
+            <p style="margin-left:20px">
+              author = { {{ output.author }} }, <br>
+              url = { {{ output.website }} }, <br>
+              year = { {{ output.year }} }, <br>
+              title = { {{ output.title }} }, <br>
+              {%- if output.type == "article" -%}
+                journal = { {{ output.journal }} }, <br>
+                volume = { {{ output.volume }} }, <br>
+                issue = { {{ output.issue }} }, <br>
+                pages = { {{ output.pages }} }
+              {%- elsif output.type == "inproceedings" -%}
+                booktitle = { {{ output.booktitle }} }
+              {%- elsif output.type == "incollection" -%}
+                booktitle = { {{ output.booktitle }} }, <br>
+                chapter = { {{ output.chapter }} }, <br>
+                editor = { {{ output.editor }} }, <br>
+                isbn = { {{ output.isbn }} }, <br>
+                publisher = { {{ output.publisher }} }
+              {%- endif -%}
+
+              {%- if output.doi != null -%}
+               ,<br> doi = { {{ output.doi }} }
+              {%- endif -%}
+            }
+            </p>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
+  </body>
+</html>
+
+
+<script>
+function showOutput(input) {
+  outputName = String(input);
+  var x = document.getElementById(outputName);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>

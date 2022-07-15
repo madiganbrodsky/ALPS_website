@@ -1,8 +1,5 @@
 ---
-layout: default
+layout: publications
 title: Publications
 permalink: publications.html
 ---
-## Pending
-
-### To appear
