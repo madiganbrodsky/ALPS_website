@@ -3,7 +3,8 @@
 # The code in output.html that reads in this bibliography thus far only supports bibtex entries of types: @inproceedings, @article, @incollection
 # the id refers to a unique id for reference of the paper. Be sure to include that as it is necessary to have the correct output on the website
 # the website entry specifies the publications website url
-# preprint redirects to a preprint pdf version found in our linking hypothesis repo
+# preprint redirects to a preprint pdf version found in this ALPS website repo
+
 - type: inproceedings
   id: 2022_DegenPophristic
   author:
