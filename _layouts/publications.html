@@ -5,83 +5,108 @@ layout: default
 <html>
 
   <body>
-
+    <!-- Get the bibliography information from teh yaml file -->
     {%- assign allOutput = site.data.bibliography -%}
 
-
-    <h2> Publications </h2>
-
+    <!-- Get the current year -->
     {%- assign currentYear =  'now' | date: "%Y"  -%}
-    {% for year in (2011..currentYear) reversed %}
 
-      <h2>{{year}}</h2>
-      {%- for output in allOutput -%}
-        {%- if output.year == year -%}
-          {%- if output.type == "article" -%}
-            {%- assign publicationName = output.journal -%}
-          {%- else -%}
-            {%- assign publicationName = output.booktitle -%}
-          {%- endif -%}
+    <!-- *** PENDING SECTION *** -->
 
-          <p>
-            {%- if output.website != null -%}
-              <a href="{{ output.website }}">{{ output.title }}</a>.
-            {%- else -%}
-              {{ output.title }}.
-            {%- endif -%}
+    <!-- Include it only if there is something that is pending -->
+    <!-- Iterate through each bibtex entry -->
+    {%- for output in allOutput -%}
+      {%- assign outputYear = output.year | string -%}
 
-            &nbsp;{{ output.author }}. ({{ output.year }}).
-            In <i>{{ publicationName }}</i>.
+      <!-- If there is a pending article, include the header -->
+      {%- if  outputYear == "to appear"-%}
+          <h2> Pending </h2>
 
-            {%- if output.doi -%}
-            &nbsp doi:
-            {%- endif -%}
-            {{ output.doi }}
-            &nbsp
-            <a onclick="showOutput('abstract_{{ output.id | slugify }}')">[abstract]</a>
-            <a href="{{ output.preprint }}">[preprint]</a>
-            <a class="publicationButton" onclick="showOutput('bibtex_{{ output.id | slugify }}')">[bibtex]</a>
-          </p>
-
-          <div id="abstract_{{ output.id | slugify }}" style="display:none">
-            <p>{{output.abstract}}</p>
-          </div>
-          <div id="bibtex_{{ output.id | slugify }}" style="display:none">
-
-            @{{ output.type }}{ {{ output.id }},
-            <p style="margin-left:20px">
-              author = { {{ output.author }} }, <br>
-              url = { {{ output.website }} }, <br>
-              year = { {{ output.year }} }, <br>
-              title = { {{ output.title }} }, <br>
-              {%- if output.type == "article" -%}
-                journal = { {{ output.journal }} }, <br>
-                volume = { {{ output.volume }} }, <br>
-                issue = { {{ output.issue }} }, <br>
-                pages = { {{ output.pages }} }
-              {%- elsif output.type == "inproceedings" -%}
-                booktitle = { {{ output.booktitle }} }
-              {%- elsif output.type == "incollection" -%}
-                booktitle = { {{ output.booktitle }} }, <br>
-                chapter = { {{ output.chapter }} }, <br>
-                editor = { {{ output.editor }} }, <br>
-                isbn = { {{ output.isbn }} }, <br>
-                publisher = { {{ output.publisher }} }
-              {%- endif -%}
-
-              {%- if output.doi != null -%}
-               ,<br> doi = { {{ output.doi }} }
-              {%- endif -%}
-            }
-            </p>
-          </div>
-        {%- endif -%}
-      {%- endfor -%}
+          {%- break -%}
+      {%- elsif outputYear == "submitted" -%}
+        <h2> Pending </h2>
+        {%- break -%}
+      {%- endif -%}
     {%- endfor -%}
+
+
+    <!-- ** TO APPEAR ARTICLES ** -->
+    <!-- Include heading if there is an "to appear" article -->
+    {%- for output in allOutput -%}
+      {%- assign outputYear = output.year | string -%}
+      <!-- If there is a "to appear" article, include the header -->
+      {%- if  outputYear == "to appear"-%}
+          <h3> To Appear </h3>
+          {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+    <!-- Add the "to appear" entries -->
+    <!-- Iterate through each bibtex entry -->
+    {%- for output in allOutput -%}
+      {%- assign outputYear = output.year | string -%}
+
+      <!-- Only include the bibtex entry which are "to appear" -->
+      {%- if outputYear == "to appear" -%}
+
+        <!-- _includes/entry.html prints out the bibtex entry -->
+        {% include entry.html %}
+
+      {%- endif -%}
+    {%- endfor -%}
+
+    <!-- ** SUBMITTED ARTICLES ** -->
+    <!-- Include heading if there is an "submitted" article -->
+    {%- for output in allOutput -%}
+      {%- assign outputYear = output.year | string -%}
+      <!-- If there is a "to appear" article, include the header -->
+      {%- if  outputYear == "submitted"-%}
+          <h3> Submitted </h3>
+          {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+    <!-- Add the "submitted" entries -->
+    <!-- Iterate through each bibtex entry -->
+    {%- for output in allOutput -%}
+      {%- assign outputYear = output.year | string -%}
+
+      <!-- Only include the bibtex entry which are "submitted" -->
+      {%- if outputYear == "submitted" -%}
+
+        <!-- _includes/entry.html prints out the bibtex entry -->
+        {% include entry.html %}
+
+      {%- endif -%}
+    {%- endfor -%}
+
+
+
+
+    <!-- *** PUBLICATIONS SECTION *** -->
+
+    <h2 style="padding-top:20px"> Publications </h2>
+
+    <!-- Loop through each year -->
+    {% for year in (2011..currentYear) reversed %}
+      <h2>{{year}}</h2>
+
+      <!-- Iterate through each bibtex entry -->
+      {%- for output in allOutput -%}
+        {%- assign outputYear = output.year | to_integer -%}
+
+        <!-- Only include the bibtex entry if it is from the year specified by the heading  -->
+        {%- if outputYear == year -%}
+
+          <!-- _includes/entry.html prints out the bibtex entry -->
+          {% include entry.html %}
+
+        {%- endif -%}
+        {%- endfor -%}
+    {%- endfor -%}
+
   </body>
 </html>
 
-
+<!-- Script responsible for button functionality -->
 <script>
 function showOutput(input) {
   outputName = String(input);

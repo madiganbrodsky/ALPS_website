@@ -1,0 +1,65 @@
+<!--
+Print out the publication entry for the publications page
+
+This includes links to the paper and a button which will show the bibtex entry 
+  the abstract, and a link to the preprint.
+-->
+
+
+<!-- publicationName = title of publication agnostic to whether it is
+      an article or book (these have different keys in the yaml/bibtex) -->
+{%- if output.ENTRYTYPE == "article" -%}
+  {%- assign publicationName = output.journal -%}
+{%- else -%}
+  {%- assign publicationName = output.booktitle -%}
+{%- endif -%}
+
+<!-- Print the publication -->
+<p>
+  {%- if output.website != null -%}
+    <a href="{{ output.website }}">{{ output.title }}</a>.
+  {%- else -%}
+    {{ output.title }}.
+  {%- endif -%}
+
+  &nbsp;{{ output.author }}. ({{ output.year }}).
+  In <i>{{ publicationName }}</i>.
+
+  {%- if output.doi -%}
+  &nbsp doi:
+  {%- endif -%}
+  {{ output.doi }}
+  &nbsp
+  <!-- Create Abstract, Preprint, and Bibtex buttons -->
+  <a onclick="showOutput('abstract_{{ output.ID | slugify }}')">[abstract]</a>
+  <a href="{{ output.website }}">[preprint]</a>
+  <a class="publicationButton" onclick="showOutput('bibtex_{{ output.ID | slugify }}')">[bibtex]</a>
+</p>
+
+<!-- Specify how the abstract should be printed if the bibtex button is pressed -->
+<div id="abstract_{{ output.ID | slugify }}" style="display:none">
+  <p>{{output.abstract}}</p>
+</div>
+
+<!-- Specify how the bibtex entry should be printed if the bibtex button is pressed -->
+<div id="bibtex_{{ output.ID | slugify }}" style="display:none">
+
+@{{ output.ENTRYTYPE }}{ {{ output.ID }},
+  <p style="margin-left:20px">
+  <!-- Iterate through all fields of the publication entry -->
+  {%- for outputField in output -%}
+    <!-- skip Entrytype and ID as those are already printed by line above -->
+    {%- if outputField[0] == "ENTRYTYPE" -%}
+    {%- elsif outputField[0] == "ID" -%}
+    {%- else -%}
+      <!-- Print the key == value for the publication field -->
+      {{ outputField[0] }} = { {{ outputField[1] }} }
+      <!-- Add a , and line break after each field unless its the last field -->
+      {%- if forloop.last -%}
+      {%- else -%}
+        , <br>
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+  <br>} </p>
+</div>

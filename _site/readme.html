@@ -100,6 +100,110 @@
       <div class="wrapper">
         <p>Here’s how to edit this website!</p>
 
+<h1 id="people-section">People Section</h1>
+<h2 id="add-a-person-to-the-website">Add a person to the website</h2>
+<p>You need:</p>
+<ul>
+  <li>The person’s name</li>
+  <li>The person’s personal website (optional)</li>
+  <li>The person’s photo</li>
+  <li>The person’s bio</li>
+</ul>
+
+<ol>
+  <li>Add the person’s photo into the images/members folder and name it ‘NAME.jpg’</li>
+  <li>Add the person’s information to _data/alpslab.yml following the formatting shown there. Be sure to follow the formatting precisely, as missing spaces/incorrect line breaks may break the website. Add the person in the correct section (Graduate students, Masters Students, etc.)</li>
+  <li>Follow instructions under “publish changes”</li>
+</ol>
+
+<h2 id="change-lab-member-to-lab-alumni">Change Lab member to Lab Alumni</h2>
+<ol>
+  <li>Navigate to _data/alpslab.yml</li>
+  <li>Find their data entry, copy it, then delete it</li>
+  <li>Re-add their data entry to the “Lab Alumni” section, including only their name, webpage (if they have one), and image.</li>
+  <li>Follow instructions under “publish changes”</li>
+</ol>
+
+<h2 id="change-the-heading-picture">Change the heading picture</h2>
+<p>You need:</p>
+<ul>
+  <li>the new lab image</li>
+</ul>
+
+<ol>
+  <li>Go to images/ and rename the current ‘lab_members.jpg’ to ‘lab_members[year photo was taken].jpg’.</li>
+  <li>Add your new image in this folder and name it ‘lab_members.jpg’</li>
+  <li>Follow instructions under “publish changes”</li>
+</ol>
+
+<h1 id="publications">Publications</h1>
+
+<h2 id="add-a-publication-entry">Add a publication entry</h2>
+<p>You need:</p>
+<ul>
+  <li>the metadata of the publication</li>
+  <li>to have the following things installed locally:
+    <ul>
+      <li>python</li>
+      <li>pyyaml (https://pyyaml.org/) (install it by running ‘pip install pyyaml’ in terminal)</li>
+      <li>bibtexparser (https://bibtexparser.readthedocs.io/en/master/) (install it by running ‘pip install bibtexparser’ in terminal)</li>
+    </ul>
+  </li>
+</ul>
+
+<ol>
+  <li>Go to _data/bib.bib and add the new publication as a normal bibtex entry</li>
+  <li>Run the bib_to_yml.py python script found in _data/ locally. You can do so by navigating to the _data folder in the terminal and typing the command “python bib_to_yml.py”</li>
+  <li>Follow instructions under “publish changes”</li>
+</ol>
+
+<p>Furter Notes:</p>
+
+<p>Step (1): If the publication is not yet published, instead of including a year, write “to appear” (if its a manuscript that has been accepted already) or “submitted” (if its a manuscript that has been submitted but not yet accepted). In the Publication section, the “Pending”, “To Appear”, and “Submitted” headers will automatically appear if there is an entry in the bibtex where the year is set to “to appear” or “submitted”.</p>
+
+<p>Step (2): We want to have a bibtex file with all the bib entries of our bibliography. However, the website only knows how to interface with yaml files, not bibtex files. So the python script takes everything in the bibtex file and converts it to a yaml file that the website can then parse. On the Publications page there is a [bibtex] button which shows the bibtex entry. This button doesn’t actually reference the bib.bib file but rather takes the information from the yaml and converts it to text which is formatted like a bibtex entry.</p>
+
+<h2 id="change-publication-information">Change publication information</h2>
+<p>Do this if you found a mistake/missing link of a publication already published to the website, or if a publication has been published and needs to be moved from the “to appear” or “submitted” sections.</p>
+
+<h1 id="view-changes-locallytroubleshooting">View changes locally/Troubleshooting</h1>
+<p>You need:</p>
+<ul>
+  <li>Install Jekyll locally</li>
+</ul>
+
+<ol>
+  <li>Navigate to the root of the ALPS website folder using terminal and execute command “bundle exec jekyll serve” (or “jekyll serve”)</li>
+  <li>You will see an output that looks like this:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Configuration file: /Users/stefan/Desktop/repos/ALPS_website/_config.yml
+         Source: /Users/stefan/Desktop/repos/ALPS_website
+    Destination: /Users/stefan/Desktop/repos/ALPS_website/_site
+ Incremental build: disabled. Enable with --incremental
+   Generating...
+    Jekyll Feed: Generating feed for posts
+                 done in 0.536 seconds.
+ Auto-regeneration: enabled for '/Users/stefan/Desktop/repos/ALPS_website'
+ Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+</code></pre></div>    </div>
+  </li>
+  <li>Copy the “server address” and paste it as a URL in your browser. This will take you to a local version of the website. Note that this is not accessible to anyone except you, so feel free to make any changes. The changes will only become visible when you push them to the github repo.</li>
+</ol>
+
+<p>If in step (2) you do not see the above input, but an error message, this means that there was an error compiling your code. These are usually syntax errors. The messages that pop up in terminal are helpful in locating the syntax error.</p>
+
+<p>If you make local changes with the website open locally on your browser, just hit save and the changes should automatically be reflected in your local browser. The fact that you saved the document will be reflected in the terminal in which you typed “jekyll serve”. The terminal will also show you error messages that come up as you are editing the website. Be aware that if you make a change that is fatal to the website (e.g. a syntax error), terminal will show you a red message letting you know that this error message will keep the site from working, but the locally running website will not reflect that change (or any future changes until you fix the fatal error).</p>
+
+<h1 id="publish-changes">Publish Changes</h1>
+<ol>
+  <li>Commit + Add + Push changes to the github repo</li>
+  <li>Check that the changes were succesfully rendered on gitpages in the github repo</li>
+  <li>??? ANything else, To be seen</li>
+</ol>
+
+<h1 id="old-stuff">OLD STUFF</h1>
+<p>The rest is legacy documentation from when the website was published using the Stanford AFS servers (the original place where the website was hosted). It may prove useful while troubleshooting.</p>
+
 <h2 id="overview">Overview</h2>
 
 <ol>
