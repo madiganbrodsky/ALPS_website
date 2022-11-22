@@ -1,33 +1,31 @@
 - ENTRYTYPE: article
-  ID: DegenTG2015j
-  abstract: "World knowledge enters into pragmatic utterance interpreta- tion in complex\
-    \ ways, and may be defeasible in light of speak- ers' utterances. Yet there is\
-    \ to date a surprising lack of sys- tematic investigation into the role of world\
-    \ knowledge in prag- matic inference. In this paper, we show that a state-of-the-art\
-    \ model of pragmatic interpretation greatly overestimates the in- fluence of world\
-    \ knowledge on the interpretation of utterances like Some of the marbles sank.\
-    \ We extend the model to cap- ture the idea that the listener is uncertain about\
-    \ the background knowledge the speaker is bringing to the conversation. This extension\
-    \ greatly improves model predictions of listeners' in- terpretation and also makes\
-    \ good qualitative predictions about listeners' judgments of how \u2018normal'\
-    \ the world is in light of a speaker's statement. Theoretical and methodological\
-    \ implica- tions are discussed. Keywords:"
-  address: Austin, TX
-  author: Degen, Judith and Tessler, Michael Henry and Goodman, Noah D
-  editor: Noelle, D. C. and Dale, R. and Warlaumont, A. S. and Yoshimi, J. and Matlock,
-    T. and Jennings, C. D. and Maglio, P. P.
-  journal: Proceedings of the 37th Annual Conference of the Cognitive Science Society
-  keywords: computational pragmatics,experimental pragmatics,how often do you,if not
-    always,in water,liefs,now imagine read-,prior be-,prior beliefs,probably extremely
-    often,scalar implicature,think marbles would sink,world knowledge
-  number: '2'
-  pages: 548--553
-  publisher: Cognitive Science Society
-  title: 'Wonky worlds: Listeners revise world knowledge when utterances are odd'
-  website: papers/2015_DegenTesslerGoodman.pdf
-  year: '2015'
+  ID: 2007Degen
+  author: Degen, Judith
+  journal: Publications of the Institute of Cognitive Science, University of Osnabr{\{}{\"{u}}{\}}ck
+  title: 'Processing Scalar Implicatures: What Role Does the Question of {\{}D{\}}efault
+    Play for the Debate Between ({\{}N{\}}eo-){\{}G{\}}riceanism and {\{}R{\}}elevance
+    {\{}T{\}}heory?'
+- ENTRYTYPE: inproceedings
+  ID: 2011DegenTanenhaus
+  author: Degen, Judith and Tanenhaus, Michael K.
+  booktitle: Proceedings of the 33rd Annual Conference of the Cognitive Science Society
+  editor: "Carlson, L. and H\xF6lscher, C. and Shipley, T."
+  keywords: experimental pragmatics,eye-tracking,scalar implicature,subitizing
+  pages: 3299--3304
+  title: 'Making inferences: the case of scalar implicature processing'
+  website: ''
+  year: '2011'
+- ENTRYTYPE: inproceedings
+  ID: 2012DegenFranke
+  author: Degen, Judith and Franke, Michael
+  booktitle: Proceedings of the 16th Workshop on the Semantics and Pragmatics of Dialogue
+  editor: Brown-Schmidt, Sarah and Ginzburg, Jonathan and Larsson, S.
+  pages: 2 -- 11
+  title: Optimal Reasoning About Referential Expressions
+  website: ''
+  year: '2012'
 - ENTRYTYPE: article
-  ID: Degen2013
+  ID: 2013Degen
   abstract: In the face of underspecified utterances, listeners routinely and without
     much apparent effort make the right kinds of pragmatic inferences about a speaker's
     intended meaning. This dissertation investigates the processing of scalar impli-
@@ -49,34 +47,66 @@
   author: Degen, Judith
   institution: University of Rochester
   title: Alternatives in Pragmatic Reasoning
-  website: papers/2013_Degen_PhDThesis.pdf
+  website: ''
   year: '2013'
 - ENTRYTYPE: inproceedings
-  ID: HawkinsSDG2015
-  abstract: "What makes a question useful? What makes an answer appropriate? In this\
-    \ paper, we formulate a family of increasingly sophisticated models of question-answer\
-    \ behavior within the Rational Speech Act framework. We compare these models based\
-    \ on three different pieces of evidence: first, we demonstrate how our answerer\
-    \ models capture a classic effect in psycholinguistics showing that an answerer\u2019\
-    s level of informativeness varies with the inferred questioner goal, while keeping\
-    \ the question constant. Second, we jointly test the questioner and answerer components\
-    \ of our model based on empirical evidence from a question-answer reasoning game.\
-    \ Third, we examine a special case of this game to further distinguish among the\
-    \ questioner models. We find that sophisticated pragmatic reasoning is needed\
-    \ to account for some of the data. People can use questions to provide cues to\
-    \ the answerer about their interest, and can select answers that are informative\
-    \ about inferred interests."
-  author: Hawkins, Robert X D and Stuhlm, Andreas and Degen, Judith and Goodman, Noah
-    D
-  booktitle: Proceedings of the 37th Annual Conference of the Cognitive Science Society
-  keywords: answer,answerer behavior,answers,bayesian,in prompting a relevant,it suggests
-    that the,language understanding,models,pragmatics,question itself is important,questions,work
-    has focused on
+  ID: 2013DegenFrankeEtAl
+  author: "Degen, Judith and Franke, Michael and J\xE4ger, Gerhard"
+  booktitle: ''
+  editor: ''
+  pages: ''
+  title: Cost-Based Pragmatic Inference about Referential Expressions
+  website: ''
+  year: '2013'
+- ENTRYTYPE: article
+  ID: 2013YildrimDegenEtAl
+  abstract: "People\u2019s representations of most and arguably all linguistic and\
+    \ non-linguistic categories are probabilistic. However, in lin- guistic theory,\
+    \ quantifier meanings have traditionally been de- fined set-theoretically in terms\
+    \ of categorical evaluation func- tions. In 4 \u201Cadaptation\u201D experiments,\
+    \ we provide evidence for the alternative hypothesis that quantifiers are represented\
+    \ as probability distributions over scales (e.g., Zadeh, 1965). We manipulate\
+    \ exposure to different distributions of \u201Csome\u201D and \u201Cmany\u201D\
+    \ and find that listeners adapt to those distributions, as predicted. Our results\
+    \ suggest that the interpretation of quanti- fiers is best modeled as a process\
+    \ involving rich, probabilistic representations."
+  author: Yildrim, Ilker and Degen, Judith and Tanenhaus, Michael J. and Jaeger, T.
+    Florian
+  title: Linguistic Variability and Adaptation in Quantifier Meanings
+  website: ''
+  year: '2013'
+- ENTRYTYPE: article
+  ID: 2014DegenGoodman
+  abstract: 'A rarely discussed but important issue in research on pragmatic inference
+    is the choice of dependent measure for estimating the robustness of pragmatic
+    inferences and their sensitivity to contextual manipulations. Here we present
+    the results from three studies exploring the effect of contextual manipulations
+    on scalar implicature. In all three studies we manipulate the salient question
+    under discussion and the perceptual availability of relevant set sizes. The studies
+    differ only in the dependent measure used: Exp. 1 uses truth judgements, Exp.
+    2 uses word probability ratings, and Exp. 3 uses a direct measure of sentence
+    interpretation. We argue that the first two are effectively measures of production,
+    and find they are sensitive to our contextual manipulations. In contrast the interpretation
+    measure shows no effect of context. We argue that this methodologically troubling
+    finding can be understood and predicted by using the framework of probabilistic
+    pragmatics.'
+  author: Degen, Judith and Goodman, Noah D
+  journal: Proceedings of the 36th Annual Conference of the Cognitive Science Society
+  keywords: pragmatics,psycholinguistics,scalar implicature
+  pages: 397--402
+  title: Lost your marbles? The puzzle of dependent measures in experimental pragmatics
+  website: ''
+  year: '2014'
+- ENTRYTYPE: inproceedings
+  ID: 2015HawkinsDegenEtAl
+  author: Hawkins, Robert XD and Stuhlm{\"u}ller, Andreas and Degen, Judith and Goodman,
+    Noah D
+  booktitle: CogSci
   title: Why do you ask? Good questions provoke informative answers.
-  website: papers/2014_HawkinsDegenStuhlmuellerGoodman.pdf
+  website: ''
   year: '2015'
 - ENTRYTYPE: article
-  ID: Degen2015
+  ID: 2015Degen
   abstract: "A prevalent, but to date untested, assumption about lexicalized scalar\
     \ implicatures such as those from 'some' to 'not all', is that they fall into\
     \ the class of GCIs and as such, constitute a homogeneous class of highly regularized\
@@ -101,174 +131,10 @@
     corpora and web-based methods
   url: http://dx.doi.org/10.3765/sp.8.11
   volume: '8'
-  website: papers/2015_Degen_SP.pdf
+  website: ''
   year: '2015'
 - ENTRYTYPE: article
-  ID: ScontrasDG2017
-  abstract: "From English to Hungarian to Mokilese, speakers exhibit strong ordering\
-    \ preferences in multi-adjective strings: \u201Cthe big blue box\u201D sounds\
-    \ far more natural than \u201Cthe blue big box.\u201D We show that an adjective\u2019\
-    s distance from the modified noun is predicted not by a rigid syntax, but by the\
-    \ adjective\u2019s meaning: less subjective adjectives occur closer to the nouns\
-    \ they modify. This finding provides an example of a broad linguistic universal\u2014\
-    adjective ordering preferences\u2014emerging from general properties of cognition."
-  annote: 'doi: 10.1162/OPMI{\_}a{\_}00005'
-  author: Scontras, Gregory and Degen, Judith and Goodman, Noah D
-  doi: 10.1162/OPMI_a_00005
-  issue: '1'
-  journal: Open Mind
-  pages: 53--66
-  publisher: MIT Press
-  title: Subjectivity Predicts Adjective Ordering Preferences
-  url: http://dx.doi.org/10.1162/OPMI{\_}a{\_}00005
-  volume: '1'
-  website: papers/2017_ScontrasDegenGoodman.pdf
-  year: '2017'
-- ENTRYTYPE: article
-  ID: Degen2007
-  author: Degen, Judith
-  journal: Publications of the Institute of Cognitive Science, University of Osnabr{\{}{\"{u}}{\}}ck
-  title: 'Processing Scalar Implicatures: What Role Does the Question of {\{}D{\}}efault
-    Play for the Debate Between ({\{}N{\}}eo-){\{}G{\}}riceanism and {\{}R{\}}elevance
-    {\{}T{\}}heory?'
-- ENTRYTYPE: article
-  ID: FrankeD2016
-  abstract: "Recent advances in probabilistic pragmatics have achieved considerable\
-    \ success in modeling speakers\u2019 and listeners\u2019 pragmatic reasoning as\
-    \ probabilistic inference. However, these models are usually applied to population-level\
-    \ data, and so implicitly suggest a homogeneous population without individual\
-    \ differences. Here we investigate potential individual differences in Theory-of-Mind\
-    \ related depth of pragmatic reasoning in so-called reference games that require\
-    \ drawing ad hoc Quantity implicatures of varying complexity. We show by Bayesian\
-    \ model comparison that a model that assumes a heterogenous population is a better\
-    \ predictor of our data, especially for comprehension. We discuss the implications\
-    \ for the treatment of individual differences in probabilistic models of language\
-    \ use."
-  author: Franke, Michael and Degen, Judith
-  doi: 10.1371/journal.pone.0154854
-  journal: PLoS ONE
-  number: '5'
-  pages: 1--25
-  title: 'Reasoning in Reference Games : Individual- vs . Population-Level Probabilistic
-    Modeling'
-  volume: '11'
-  website: papers/2016_FrankeDegen.PDF
-  year: '2016'
-- ENTRYTYPE: article
-  ID: YildirimDTJ2016
-  abstract: 'Linguistic meaning has long been recognized to be highly context-dependent.
-    Quantifiers like many and some provide a particularly clear example of context-dependence.
-    For example, the interpretation of quantifiers requires listeners to determine
-    the relevant domain and scale. We focus on another type of context-dependence
-    that quantifiers share with other lexical items: talker variability. Different
-    talkers might use quantifiers with different interpretations in mind. We used
-    a web-based crowdsourcing paradigm to study participants'' expectations about
-    the use of many and some based on recent exposure. We first established that the
-    mapping of some and many onto quantities (candies in a bowl) is variable both
-    within and between participants. We then examined whether and how listeners''
-    expectations about quantifier use adapts with exposure to talkers who use quantifiers
-    in different ways. The results demonstrate that listeners can adapt to talker-specific
-    biases in both how often and with what intended meaning many and some are used.'
-  author: Yildirim, Ilker and Degen, Judith and Tanenhaus, Michael K. and Jaeger,
-    T. Florian
-  doi: 10.1016/j.jml.2015.08.003
-  issn: 0749596X
-  journal: Journal of Memory and Language
-  keywords: Adaptation,Pragmatics,Quantifiers,Semantics,Talker-specificity
-  pages: 128--143
-  publisher: Elsevier Inc.
-  title: Talker-specificity and adaptation in quantifier interpretation
-  url: http://dx.doi.org/10.1016/j.jml.2015.08.003
-  volume: '87'
-  website: papers/2016_YildirimDegenTanenhausJaeger.pdf
-  year: '2016'
-- ENTRYTYPE: article
-  ID: DegenT2016
-  abstract: '{\textcopyright} 2016 Cognitive Science Society, Inc.Two visual world
-    experiments investigated the processing of the implicature associated with some
-    using a "gumball paradigm." On each trial, participants saw an image of a gumball
-    machine with an upper chamber with orange and blue gumballs and an empty lower
-    chamber. Gumballs dropped to the lower chamber, creating a contrast between a
-    partitioned set of gumballs of one color and an unpartitioned set of the other.
-    Participants then evaluated spoken statements, such as "You got some of the blue
-    gumballs." Experiment 1 investigated the time course of the pragmatic enrichment
-    from some to not all when the only utterance alternatives available to refer to
-    the different sets were some and all. In Experiment 2, the number terms two, three,
-    four, and five were also included in the set of alternatives. Scalar implicatures
-    were delayed relative to the interpretation of literal statements with all only
-    when number terms were available. The results are interpreted as evidence for
-    a constraint-based account of scalar implicature processing.'
-  author: Degen, Judith and Tanenhaus, Michael K.
-  doi: 10.1111/cogs.12227
-  issn: '15516709'
-  journal: Cognitive Science
-  keywords: Alternatives,Eye-tracking,Pragmatics,Quantifiers,Scalar implicature
-  number: '1'
-  pages: 172--201
-  title: 'Availability of Alternatives and the Processing of Scalar Implicatures:
-    A Visual World Eye-Tracking Study'
-  volume: '40'
-  website: papers/2016_DegenTanenhaus.pdf
-  year: '2016'
-- ENTRYTYPE: inproceedings
-  ID: GrafDHG2016
-  abstract: "Nominal reference is very flexible\u2014the same object may be called\
-    \ a dalmatian, a dog, or an animal when all are literally true. What accounts\
-    \ for the choices that speakers make in how they refer to objects? The addition\
-    \ of modifiers (e.g. big dog) has been extensively explored in the literature,\
-    \ but fewer studies have explored the choice of noun, including its level of abstraction.\
-    \ We collected freely produced referring expressions in a multi-player reference\
-    \ game experiment, where we manipulated the object\u2019s context. We find that\
-    \ utterance choice is affected by the contextual informativeness of a description,\
-    \ its length and frequency, and the typicality of the object for that description.\
-    \ Finally, we show how these factors naturally enter into a formal model of production\
-    \ within the Rational Speech-Acts framework, and that the resulting model predicts\
-    \ our quantitative production data. "
-  address: Austin, TX
-  author: Graf, Caroline and Degen, Judith and Hawkins, Robert X D and Goodman, Noah
-    D
-  booktitle: Proceedings of the 38th Annual Conference of the Cognitive Science Society
-  editor: Papafragou, A. and Grodner, D. and Mirman, D. and Trueswell, J.C.
-  keywords: intropsychling
-  mendeley-tags: intropsychling
-  pages: 2261--2266
-  publisher: Cognitive Science Society
-  title: Animal, dog, or dalmatian? Level of abstraction in nominal referring expressions
-  website: papers/2016_GrafDegenHawkinsGoodman.pdf
-  year: '2016'
-- ENTRYTYPE: article
-  ID: DegenG2014
-  abstract: 'A rarely discussed but important issue in research on pragmatic inference
-    is the choice of dependent measure for estimating the robustness of pragmatic
-    inferences and their sensitivity to contextual manipulations. Here we present
-    the results from three studies exploring the effect of contextual manipulations
-    on scalar implicature. In all three studies we manipulate the salient question
-    under discussion and the perceptual availability of relevant set sizes. The studies
-    differ only in the dependent measure used: Exp. 1 uses truth judgements, Exp.
-    2 uses word probability ratings, and Exp. 3 uses a direct measure of sentence
-    interpretation. We argue that the first two are effectively measures of production,
-    and find they are sensitive to our contextual manipulations. In contrast the interpretation
-    measure shows no effect of context. We argue that this methodologically troubling
-    finding can be understood and predicted by using the framework of probabilistic
-    pragmatics.'
-  author: Degen, Judith and Goodman, Noah D
-  journal: Proceedings of the 36th Annual Conference of the Cognitive Science Society
-  keywords: pragmatics,psycholinguistics,scalar implicature
-  pages: 397--402
-  title: Lost your marbles? The puzzle of dependent measures in experimental pragmatics
-  website: papers/2014_DegenGoodman.pdf
-  year: '2014'
-- ENTRYTYPE: inproceedings
-  ID: DegenF2012
-  author: Degen, Judith and Franke, Michael
-  booktitle: Proceedings of the 16th Workshop on the Semantics and Pragmatics of Dialogue
-  editor: Brown-Schmidt, Sarah and Ginzburg, Jonathan and Larsson, S.
-  pages: 2 -- 11
-  title: Optimal Reasoning About Referential Expressions
-  website: papers/2012_DegenFranke.pdf
-  year: '2012'
-- ENTRYTYPE: article
-  ID: DegenT2015
+  ID: 2015DegenTanenhaus
   abstract: Three experiments investigated the processing of the implicature associated
     with some using a "gumball paradigm." On each trial, participants saw an image
     of a gumball machine with an upper chamber with 13 gumballs and an empty lower
@@ -297,38 +163,195 @@
   pmid: '25265993'
   title: Processing scalar implicature A constraint-based approach
   volume: '39'
-  website: papers/2015_DegenTanenhaus.pdf
+  website: ''
   year: '2015'
 - ENTRYTYPE: article
-  ID: TonhauserEtAl2018
-  abstract: Projective content is utterance content that a speaker may be taken to
-    be committed to even when the expression associated with the content occurs embedded
-    under an entailment-canceling operator (e.g., Chierchia & McConnell-Ginet, 1990).
-    It has long been observed that projective content varies in how projective it
-    is (e.g., Karttunen, 1971; Simons, 2001; Abusch, 2010), though preliminary experimental
-    research has been able to confirm only some of the intuitions about projection
-    variability (e.g., Smith & Hall, 2011; Xue & Onea, 2011). Given the sparse empirical
-    evidence for projection variability, the first goal of this paper was to investigate
-    projection variability for projective content associated with 19 expressions of
-    American English. The second goal was to explore the hypothesis, called the Gradient
-    Projection Principle, that content projects to the extent that it is not at-issue.
-    The findings of two pairs of experiments provide robust empirical evidence for
-    projection variability and for the Gradient Projection Principle. We show that
-    many analyses of projection cannot account for the observed projection variability
-    and discuss the implications of our finding that projective content varies in
-    its at-issueness for an empirically adequate analysis of projection.
-  author: Tonhauser, Judith and Beaver, David I and Degen, Judith
-  doi: 10.1093/jos/ffy007
-  journal: Journal of Semantics
-  number: '3'
-  pages: 495--542
-  title: How projective is projective content? Gradience in projectivity and at-issueness
-  url: https://academic.oup.com/jos/article/35/3/495/5042798?guestAccessKey=0fa933df-299f-439f-b622-b130e730c3b8
-  volume: '35'
-  website: papers/2018_TonhauserBeaverDegen.pdf
+  ID: 2015DegenTesslerEtAl
+  abstract: "World knowledge enters into pragmatic utterance interpreta- tion in complex\
+    \ ways, and may be defeasible in light of speak- ers' utterances. Yet there is\
+    \ to date a surprising lack of sys- tematic investigation into the role of world\
+    \ knowledge in prag- matic inference. In this paper, we show that a state-of-the-art\
+    \ model of pragmatic interpretation greatly overestimates the in- fluence of world\
+    \ knowledge on the interpretation of utterances like Some of the marbles sank.\
+    \ We extend the model to cap- ture the idea that the listener is uncertain about\
+    \ the background knowledge the speaker is bringing to the conversation. This extension\
+    \ greatly improves model predictions of listeners' in- terpretation and also makes\
+    \ good qualitative predictions about listeners' judgments of how \u2018normal'\
+    \ the world is in light of a speaker's statement. Theoretical and methodological\
+    \ implica- tions are discussed. Keywords:"
+  address: Austin, TX
+  author: Degen, Judith and Tessler, Michael Henry and Goodman, Noah D
+  editor: Noelle, D. C. and Dale, R. and Warlaumont, A. S. and Yoshimi, J. and Matlock,
+    T. and Jennings, C. D. and Maglio, P. P.
+  journal: Proceedings of the 37th Annual Conference of the Cognitive Science Society
+  keywords: computational pragmatics,experimental pragmatics,how often do you,if not
+    always,in water,liefs,now imagine read-,prior be-,prior beliefs,probably extremely
+    often,scalar implicature,think marbles would sink,world knowledge
+  number: '2'
+  pages: 548--553
+  publisher: Cognitive Science Society
+  title: 'Wonky worlds: Listeners revise world knowledge when utterances are odd'
+  website: ''
+  year: '2015'
+- ENTRYTYPE: article
+  ID: 2016DegenTanenhaus
+  abstract: '{\textcopyright} 2016 Cognitive Science Society, Inc.Two visual world
+    experiments investigated the processing of the implicature associated with some
+    using a "gumball paradigm." On each trial, participants saw an image of a gumball
+    machine with an upper chamber with orange and blue gumballs and an empty lower
+    chamber. Gumballs dropped to the lower chamber, creating a contrast between a
+    partitioned set of gumballs of one color and an unpartitioned set of the other.
+    Participants then evaluated spoken statements, such as "You got some of the blue
+    gumballs." Experiment 1 investigated the time course of the pragmatic enrichment
+    from some to not all when the only utterance alternatives available to refer to
+    the different sets were some and all. In Experiment 2, the number terms two, three,
+    four, and five were also included in the set of alternatives. Scalar implicatures
+    were delayed relative to the interpretation of literal statements with all only
+    when number terms were available. The results are interpreted as evidence for
+    a constraint-based account of scalar implicature processing.'
+  author: Degen, Judith and Tanenhaus, Michael K.
+  doi: 10.1111/cogs.12227
+  issn: '15516709'
+  journal: Cognitive Science
+  keywords: Alternatives,Eye-tracking,Pragmatics,Quantifiers,Scalar implicature
+  number: '1'
+  pages: 172--201
+  title: 'Availability of Alternatives and the Processing of Scalar Implicatures:
+    A Visual World Eye-Tracking Study'
+  volume: '40'
+  website: ''
+  year: '2016'
+- ENTRYTYPE: article
+  ID: 2016FrankeDegen
+  abstract: "Recent advances in probabilistic pragmatics have achieved considerable\
+    \ success in modeling speakers\u2019 and listeners\u2019 pragmatic reasoning as\
+    \ probabilistic inference. However, these models are usually applied to population-level\
+    \ data, and so implicitly suggest a homogeneous population without individual\
+    \ differences. Here we investigate potential individual differences in Theory-of-Mind\
+    \ related depth of pragmatic reasoning in so-called reference games that require\
+    \ drawing ad hoc Quantity implicatures of varying complexity. We show by Bayesian\
+    \ model comparison that a model that assumes a heterogenous population is a better\
+    \ predictor of our data, especially for comprehension. We discuss the implications\
+    \ for the treatment of individual differences in probabilistic models of language\
+    \ use."
+  author: Franke, Michael and Degen, Judith
+  doi: 10.1371/journal.pone.0154854
+  journal: PLoS ONE
+  number: '5'
+  pages: 1--25
+  title: 'Reasoning in Reference Games : Individual- vs . Population-Level Probabilistic
+    Modeling'
+  volume: '11'
+  website: ''
+  year: '2016'
+- ENTRYTYPE: inproceedings
+  ID: 2016FrankeDablanderEtAl
+  author: Franke, Michael and Dablander, Fabian and Sch{\"o}ller, Anthea and Bennett,
+    Erin and Degen, Judith and Tessler, Michael Henry and Kao, Justine T and Goodman,
+    Noah D
+  booktitle: CogSci
+  title: What does the crowd believe? A hierarchical approach to estimating subjective
+    beliefs from empirical data.
+  website: ''
+  year: '2016'
+- ENTRYTYPE: inproceedings
+  ID: 2016GrafDegenEtAl
+  abstract: "Nominal reference is very flexible\u2014the same object may be called\
+    \ a dalmatian, a dog, or an animal when all are literally true. What accounts\
+    \ for the choices that speakers make in how they refer to objects? The addition\
+    \ of modifiers (e.g. big dog) has been extensively explored in the literature,\
+    \ but fewer studies have explored the choice of noun, including its level of abstraction.\
+    \ We collected freely produced referring expressions in a multi-player reference\
+    \ game experiment, where we manipulated the object\u2019s context. We find that\
+    \ utterance choice is affected by the contextual informativeness of a description,\
+    \ its length and frequency, and the typicality of the object for that description.\
+    \ Finally, we show how these factors naturally enter into a formal model of production\
+    \ within the Rational Speech-Acts framework, and that the resulting model predicts\
+    \ our quantitative production data. "
+  address: Austin, TX
+  author: Graf, Caroline and Degen, Judith and Hawkins, Robert X D and Goodman, Noah
+    D
+  booktitle: Proceedings of the 38th Annual Conference of the Cognitive Science Society
+  editor: Papafragou, A. and Grodner, D. and Mirman, D. and Trueswell, J.C.
+  keywords: intropsychling
+  mendeley-tags: intropsychling
+  pages: 2261--2266
+  publisher: Cognitive Science Society
+  title: Animal, dog, or dalmatian? Level of abstraction in nominal referring expressions
+  website: ''
+  year: '2016'
+- ENTRYTYPE: article
+  ID: 2016YildirimDegenEtAl
+  abstract: 'Linguistic meaning has long been recognized to be highly context-dependent.
+    Quantifiers like many and some provide a particularly clear example of context-dependence.
+    For example, the interpretation of quantifiers requires listeners to determine
+    the relevant domain and scale. We focus on another type of context-dependence
+    that quantifiers share with other lexical items: talker variability. Different
+    talkers might use quantifiers with different interpretations in mind. We used
+    a web-based crowdsourcing paradigm to study participants'' expectations about
+    the use of many and some based on recent exposure. We first established that the
+    mapping of some and many onto quantities (candies in a bowl) is variable both
+    within and between participants. We then examined whether and how listeners''
+    expectations about quantifier use adapts with exposure to talkers who use quantifiers
+    in different ways. The results demonstrate that listeners can adapt to talker-specific
+    biases in both how often and with what intended meaning many and some are used.'
+  author: Yildirim, Ilker and Degen, Judith and Tanenhaus, Michael K. and Jaeger,
+    T. Florian
+  doi: 10.1016/j.jml.2015.08.003
+  issn: 0749596X
+  journal: Journal of Memory and Language
+  keywords: Adaptation,Pragmatics,Quantifiers,Semantics,Talker-specificity
+  pages: 128--143
+  publisher: Elsevier Inc.
+  title: Talker-specificity and adaptation in quantifier interpretation
+  url: http://dx.doi.org/10.1016/j.jml.2015.08.003
+  volume: '87'
+  website: ''
+  year: '2016'
+- ENTRYTYPE: article
+  ID: 2017ScontrasDegenEtAl
+  abstract: "From English to Hungarian to Mokilese, speakers exhibit strong ordering\
+    \ preferences in multi-adjective strings: \u201Cthe big blue box\u201D sounds\
+    \ far more natural than \u201Cthe blue big box.\u201D We show that an adjective\u2019\
+    s distance from the modified noun is predicted not by a rigid syntax, but by the\
+    \ adjective\u2019s meaning: less subjective adjectives occur closer to the nouns\
+    \ they modify. This finding provides an example of a broad linguistic universal\u2014\
+    adjective ordering preferences\u2014emerging from general properties of cognition."
+  annote: 'doi: 10.1162/OPMI{\_}a{\_}00005'
+  author: Scontras, Gregory and Degen, Judith and Goodman, Noah D
+  doi: 10.1162/OPMI_a_00005
+  issue: '1'
+  journal: Open Mind
+  pages: 53--66
+  publisher: MIT Press
+  title: Subjectivity Predicts Adjective Ordering Preferences
+  url: http://dx.doi.org/10.1162/OPMI{\_}a{\_}00005
+  volume: '1'
+  website: ''
+  year: '2017'
+- ENTRYTYPE: inproceedings
+  ID: 2018HahnDegenEtAl
+  abstract: Across languages, adjectives are subject to ordering restrictions. Recent
+    research shows that these are predicted by adjective subjectivity, but the question
+    remains open why this is the case. We first conduct a corpus study and not only
+    replicate the subjectivity effect, but also find a previously undocumented effect
+    of mutual information between adjectives and nouns. We then describe a rational
+    model of adjective use in which listeners explicitly reason about judgments made
+    by different speakers, formalizing the notion of subjectivity as agreement between
+    speakers. We show that, once incremental processing is combined with memory limitations,
+    our model predicts effects both of subjectivity and mutual information. We confirm
+    the adequacy of our model by evaluating it on corpus data, finding that it correctly
+    predicts ordering in unseen data with an accuracy of 96.2 %. This suggests that
+    adjective ordering can be explained by general principles of human communication
+    and language processing.
+  author: Hahn, Michael and Degen, Judith and Goodman, Noah and Jurafsky, Dan and
+    Futrell, Richard
+  booktitle: Proceedings of the 40th Annual Conference of the Cognitive Science Society
+  title: An Information-Theoretic Explanation of Adjective Ordering Preferences
+  website: ''
   year: '2018'
 - ENTRYTYPE: inproceedings
-  ID: Qing
+  ID: 2018QingLassiterEtAl
   abstract: "A common dependent measure used in visual-world eye-tracking experiments\
     \ is the proportion of looks to a visually depicted object in a certain time window\
     \ after the onset of the critical stimulus. When interpreting such data, a common\
@@ -353,31 +376,38 @@
   keywords: eye-tracking,gradable adjectives,imprecision,linking functions,pragmatics,semantics,vagueness,visual
     world
   title: What do eye movements in the visual world reflect? A case study from adjectives
-  website: papers/2018_QingLassiterDegen.pdf
+  website: ''
   year: '2018'
-- ENTRYTYPE: inproceedings
-  ID: Hahn
-  abstract: Across languages, adjectives are subject to ordering restrictions. Recent
-    research shows that these are predicted by adjective subjectivity, but the question
-    remains open why this is the case. We first conduct a corpus study and not only
-    replicate the subjectivity effect, but also find a previously undocumented effect
-    of mutual information between adjectives and nouns. We then describe a rational
-    model of adjective use in which listeners explicitly reason about judgments made
-    by different speakers, formalizing the notion of subjectivity as agreement between
-    speakers. We show that, once incremental processing is combined with memory limitations,
-    our model predicts effects both of subjectivity and mutual information. We confirm
-    the adequacy of our model by evaluating it on corpus data, finding that it correctly
-    predicts ordering in unseen data with an accuracy of 96.2 %. This suggests that
-    adjective ordering can be explained by general principles of human communication
-    and language processing.
-  author: Hahn, Michael and Degen, Judith and Goodman, Noah and Jurafsky, Dan and
-    Futrell, Richard
-  booktitle: Proceedings of the 40th Annual Conference of the Cognitive Science Society
-  title: An Information-Theoretic Explanation of Adjective Ordering Preferences
-  website: papers/2018_HahnEtAl.pdf
+- ENTRYTYPE: article
+  ID: 2018TonhauserBeaverEtAl
+  abstract: Projective content is utterance content that a speaker may be taken to
+    be committed to even when the expression associated with the content occurs embedded
+    under an entailment-canceling operator (e.g., Chierchia & McConnell-Ginet, 1990).
+    It has long been observed that projective content varies in how projective it
+    is (e.g., Karttunen, 1971; Simons, 2001; Abusch, 2010), though preliminary experimental
+    research has been able to confirm only some of the intuitions about projection
+    variability (e.g., Smith & Hall, 2011; Xue & Onea, 2011). Given the sparse empirical
+    evidence for projection variability, the first goal of this paper was to investigate
+    projection variability for projective content associated with 19 expressions of
+    American English. The second goal was to explore the hypothesis, called the Gradient
+    Projection Principle, that content projects to the extent that it is not at-issue.
+    The findings of two pairs of experiments provide robust empirical evidence for
+    projection variability and for the Gradient Projection Principle. We show that
+    many analyses of projection cannot account for the observed projection variability
+    and discuss the implications of our finding that projective content varies in
+    its at-issueness for an empirically adequate analysis of projection.
+  author: Tonhauser, Judith and Beaver, David I and Degen, Judith
+  doi: 10.1093/jos/ffy007
+  journal: Journal of Semantics
+  number: '3'
+  pages: 495--542
+  title: How projective is projective content? Gradience in projectivity and at-issueness
+  url: https://academic.oup.com/jos/article/35/3/495/5042798?guestAccessKey=0fa933df-299f-439f-b622-b130e730c3b8
+  volume: '35'
+  website: ''
   year: '2018'
 - ENTRYTYPE: incollection
-  ID: DegenTanenhaus2019
+  ID: 2019DegenTanenhaus
   abstract: 'Processing language requires integrating information from multiple sources,
     including context, world knowledge, and the linguistic signal itself. How is this
     information integrated? A range of positions on the issue is possible, spanned
@@ -397,97 +427,10 @@
   isbn: '9780198791768'
   publisher: Oxford University Press
   title: Constraint-based pragmatic processing
-  website: papers/2019_DegenTanenhaus_preprint
+  website: ''
   year: '2019'
 - ENTRYTYPE: article
-  ID: ScontrasEtAl2019
-  abstract: 'Scontras et al. (2017) present experimental evidence demonstrating that
-    the best predictor of adjective ordering preferences in the English noun phrase
-    is the subjectivity of the property named by any given adjective: less subjective
-    adjectives are preferred linearly closer to the nouns they modify. The current
-    work builds on this empirical finding by proposing that the reason subjectivity
-    predicts adjective ordering preferences has to do with the hierarchical structure
-    of nominal modification. Adjectives that are linearly closer to the modified noun
-    are often structurally closer, composing with the noun before adjectives that
-    are farther away. Pressures from successful reference resolution dictate that
-    less subjective, more useful adjectives contribute their meaning to the resulting
-    nominal earlier, in an attempt to more effectively limit the reference search
-    space.'
-  author: Scontras, Gregory and Degen, Judith and Goodman, Noah
-  doi: 10.3765/sp.12.7
-  journal: Semantics and Pragmatics
-  keywords: adjective ordering, subjectivity, hierarchical structure, modification,
-    reference resolution
-  title: On the grammatical source of adjective ordering preferences
-  website: papers/2019_ScontrasEtAl.pdf
-  year: '2019'
-- ENTRYTYPE: misc
-  ID: Jasbi
-  abstract: 'The past 15 years have seen increasing experimental investigations of
-    core pragmatic questions in the ever more active and lively field of experimental
-    pragmatics. Within experimental pragmatics, many of the core questions have relied
-    on the operationalization of the theoretical notion of `implicature rate''. Implicature
-    rate based results have informed the work on acquisition, online processing, and
-    scalar diversity, inter alia. Implicature rate has typically been quantified as
-    the proportion of `pragmatic'' judgments in two-alternative forced choice truth
-    value judgment tasks. Despite its theoretical importance, this linking hypothesis
-    from implicature rate to behavioral responses has never been extensively tested.
-    Here we show that two factors dramatically affect the `implicature rate'' inferred
-    from truth value judgment tasks: a) the number of responses provided to participants;
-    and b) the linking hypothesis about what constitutes a `pragmatic'' judgment.
-    We argue that it is time for the field of experimental pragmatics to engage more
-    seriously with its foundational assumptions about how theoretical notions map
-    onto behaviorally measurable quantities, and present a sketch of an alternative
-    linking hypothesis that derives behavior in truth value judgment tasks from probabilistic
-    utterance expectations.'
-  author: Jasbi, Masoud and Waldon, Brandon and Degen, Judith
-  doi: 10.3389/fpsyg.2019.00189
-  file: :Users/judithdegen/cogsci/papers{\_}misc/JasbiWaldonDegen{\_}submitted.pdf:pdf
-  issn: 1664-1078
-  journal: Frontiers in Psychology
-  keywords: scalar implicature, methodology, linking hypothesis, experimental pragmatics,
-    truth value judgment task
-  pages: '189'
-  title: Linking hypothesis and number of response options modulate inferred scalar
-    implicature rate
-  url: https://www.frontiersin.org/article/10.3389/fpsyg.2019.00189
-  volume: '10'
-  website: papers/2019_JasbiWaldonDegen.pdf
-  year: '2019'
-- ENTRYTYPE: article
-  ID: TonhauserEtAl2020
-  abstract: 'Two contents of evaluative adjective sentences, like Kim was smart to
-    watch the movie, are the prejacent (that Kim watched the movie) and the generalization
-    (that the degree to which Kim watching the movie is smart was higher than the
-    contextual standard of smart). The prejacent is standardly analyzed as a presupposition
-    (e.g., Norrick 1978; Barker 2002; Oshima 2009; Kertz 2010). This paper argues
-    against such analyses of the prejacent because, among other things, they do not
-    capture an interaction between the prejacent and the generalization that has not
-    yet been observed for projective content: when the prejacent projects, the generalization
-    does not, and when the prejacent does not project, the generalization does. We
-    develop an analysis according to which the prejacent is not a lexically specified
-    presupposition but is projective to the extent that it is not at-issue with respect
-    to the question addressed by the utterance of the evaluative adjective sentence.
-    In addition to capturing the interaction between the prejacent and the generalization,
-    our question-based projection analysis extends previous such analyses (e.g., Beaver
-    & Clark 2008; Beaver et al. 2017; Simons et al. 2017) by incorporating a novel
-    constraint on the question addressed by an utterance: the more the interpreter
-    takes the truth of content c to follow from the common ground a priori, the less
-    likely the question is about c. We provide experimental evidence for the analysis
-    and argue that it improves on that of Karttunen et al. (2014), according to which
-    evaluative adjectives are ambiguous.'
-  author: Tonhauser, Judith and de Marneffe, Marie-Catherine and Degen, Judith
-  doi: 10.5334/gjgl.701
-  journal: 'Glossa: a journal of general linguistics '
-  number: '1'
-  pages: '87'
-  title: 'Evaluative adjective sentences: A question-based analysis of projection'
-  url: https://www.glossa-journal.org/article/id/5335/
-  volume: '5'
-  website: papers/2020_TonhauserEtAl.pdf
-  year: '2020'
-- ENTRYTYPE: article
-  ID: Degen2019
+  ID: 2019DegenTrotzkeEtAl
   abstract: We present a new experimental paradigm for investigating lexical expressions
     that conveydifferent strengths of speaker commitment. Specifically, we compare
     different evidentialcontexts for using modal devices, epistemic discourse particles,
@@ -515,22 +458,42 @@
   title: 'Definitely, maybe: A new experimental paradigm for investigating the pragmatics
     of evidential devices across languages'
   volume: '140'
-  website: papers/2019_DegenTrotzkeEtAl.pdf
+  website: ''
   year: '2019'
-- ENTRYTYPE: incollection
-  ID: DegenTonhauser2022
-  author: Degen, Judith and Tonhauser, Judith
-  booktitle: The Open Handbook of Linguistic Data Management
-  doi: 10.7551/mitpress/12200.003.0052
-  isbn: '9780262366076'
-  month: '01'
-  publisher: The MIT Press
-  title: 'Managing Web Experiments for Psycholinguistics: An Example from Experimental
-    Semantics/Pragmatics'
-  website: papers/2022_DegenTonhauser.pdf
-  year: '2022'
+- ENTRYTYPE: article
+  ID: 2019JasbiWaldonEtAl
+  abstract: 'The past 15 years have seen increasing experimental investigations of
+    core pragmatic questions in the ever more active and lively field of experimental
+    pragmatics. Within experimental pragmatics, many of the core questions have relied
+    on the operationalization of the theoretical notion of `implicature rate''. Implicature
+    rate based results have informed the work on acquisition, online processing, and
+    scalar diversity, inter alia. Implicature rate has typically been quantified as
+    the proportion of `pragmatic'' judgments in two-alternative forced choice truth
+    value judgment tasks. Despite its theoretical importance, this linking hypothesis
+    from implicature rate to behavioral responses has never been extensively tested.
+    Here we show that two factors dramatically affect the `implicature rate'' inferred
+    from truth value judgment tasks: a) the number of responses provided to participants;
+    and b) the linking hypothesis about what constitutes a `pragmatic'' judgment.
+    We argue that it is time for the field of experimental pragmatics to engage more
+    seriously with its foundational assumptions about how theoretical notions map
+    onto behaviorally measurable quantities, and present a sketch of an alternative
+    linking hypothesis that derives behavior in truth value judgment tasks from probabilistic
+    utterance expectations.'
+  author: Jasbi, Masoud and Waldon, Brandon and Degen, Judith
+  doi: 10.3389/fpsyg.2019.00189
+  issn: 1664-1078
+  journal: Frontiers in Psychology
+  keywords: scalar implicature, methodology, linking hypothesis, experimental pragmatics,
+    truth value judgment task
+  pages: '189'
+  title: Linking hypothesis and number of response options modulate inferred scalar
+    implicature rate
+  url: https://www.frontiersin.org/article/10.3389/fpsyg.2019.00189
+  volume: '10'
+  website: https://www.frontiersin.org/article/10.3389/fpsyg.2019.00189
+  year: '2019'
 - ENTRYTYPE: inproceedings
-  ID: Kreiss2019UncertainES
+  ID: 2019KreissFrankeEtAl
   abstract: "Transmission of information by means of language is a potentially lossy\
     \ process. Especially adjunct information, such as the graded degree of evidence,\
     \ is a piece of information that seems prima facie likely to be distorted by reproduction\
@@ -554,10 +517,10 @@
     evidence
   title: Uncertain evidence statements and guilt perception in iterative reproductions
     of crime stories
-  website: papers/2019_KreissFrankeDegen
+  website: ''
   year: '2019'
 - ENTRYTYPE: inproceedings
-  ID: Schuster
+  ID: 2019SchusterDegen
   abstract: Speakers exhibit variability in their choice between uncertainty expressions
     such as might and probably. Recent work has found that listeners cope with such
     variability by updating their expectations about how a specific speaker uses uncertainty
@@ -575,10 +538,165 @@
   booktitle: Proceedings of the 41st Annual Conference of the Cognitive Science Society
   keywords: psycholinguistics; semantics; pragmatics; adaptation; uncertainty expressions
   title: Speaker-specific adaptation to variable use of uncertainty expressions
-  website: papers/2019_SchusterDegen
+  website: ''
   year: '2019'
 - ENTRYTYPE: article
-  ID: Schuster-submitted
+  ID: 2019ScontrasDegenEtAl
+  abstract: 'Scontras et al. (2017) present experimental evidence demonstrating that
+    the best predictor of adjective ordering preferences in the English noun phrase
+    is the subjectivity of the property named by any given adjective: less subjective
+    adjectives are preferred linearly closer to the nouns they modify. The current
+    work builds on this empirical finding by proposing that the reason subjectivity
+    predicts adjective ordering preferences has to do with the hierarchical structure
+    of nominal modification. Adjectives that are linearly closer to the modified noun
+    are often structurally closer, composing with the noun before adjectives that
+    are farther away. Pressures from successful reference resolution dictate that
+    less subjective, more useful adjectives contribute their meaning to the resulting
+    nominal earlier, in an attempt to more effectively limit the reference search
+    space.'
+  author: Scontras, Gregory and Degen, Judith and Goodman, Noah
+  doi: 10.3765/sp.12.7
+  journal: Semantics and Pragmatics
+  keywords: adjective ordering, subjectivity, hierarchical structure, modification,
+    reference resolution
+  title: On the grammatical source of adjective ordering preferences
+  website: ''
+  year: '2019'
+- ENTRYTYPE: article
+  ID: 2020DegenHawkinsEtAl
+  abstract: 'Referring is one of the most basic and prevalent uses of language. How
+    do speakers choose from the wealth of referring expressions at their disposal?
+    Rational theories of language use have come under attack for decades for not being
+    able to account for the seemingly irrational overinformativeness ubiquitous in
+    referring expressions. Here we present a novel production model of referring expressions
+    within the Rational Speech Act framework that treats speakers as agents that rationally
+    trade off cost and informativeness of utterances. Crucially, we relax the assumption
+    that informativeness is computed with respect to a deterministic Boolean semantics,
+    in favor of a non-deterministic continuous semantics. This innovation allows us
+    to capture a large number of seemingly disparate phenomena within one unified
+    framework: the basic asymmetry in speakers'' propensity to overmodify with color
+    rather than size; the increase in overmodification in complex scenes; the increase
+    in overmodification with atypical features; and the increase in specificity in
+    nominal reference as a function of typicality. These findings cast a new light
+    on the production of referring expressions: rather than being wastefully overinformative,
+    reference is usefully redundant.'
+  author: Degen, Judith and Hawkins, Robert X D and Graf, Caroline and Kreiss, Elisa
+    and Goodman, Noah D
+  doi: 10.1037/rev0000186
+  issue: '4'
+  journal: Psychological Review
+  keywords: language production, reference, overinformativeness, experimental pragmatics,
+    Bayesian modeling
+  pages: "591\u2013621"
+  title: 'When redundancy is useful: A Bayesian approach to `overinformative'' referring
+    expressions'
+  url: https://psycnet.apa.org/record/2020-22960-001
+  volume: '127'
+  website: ''
+  year: '2020'
+- ENTRYTYPE: article
+  ID: 2019DegenTonhauser
+  author: Degen, Judith and Tonhauser, Judith
+  title: Managing data for experimental semantics and pragmatics
+  website: ''
+  year: '2019'
+- ENTRYTYPE: inproceedings
+  ID: 2020KreissDegen
+  abstract: "Contrastive inferences, whereby a listener pragmatically infers a speaker\u2019\
+    s referential intention of a partial referring expression like the yellow by reasoning\
+    \ about other objects in the context, are notoriously unstable. We report a production-centric\
+    \ model of interpretation couched within the Rational Speech Act framework. Adjective\
+    \ production probabilities a listener expects for objects in a context drive the\
+    \ size of contrastive inferences: the greater the asymmetry in expectation for\
+    \ a speaker to use a pre-nominal adjective for the target rather than for competitors,\
+    \ the greater the listener\u2019s resulting target preference. Modifier production\
+    \ probabilities were collected (Exp. 1) and used to make predictions about comprehension\
+    \ in an incremental decision task (Exp. 2). The model\u2019s interpretation predictions\
+    \ are supported by the data. This account has the potential to explain the fluctuating\
+    \ appearance of contrastive inferences and shifts the explanatory focus away from\
+    \ contrastive inference towards online interpretation of referring expressions\
+    \ more broadly."
+  author: Kreiss, Elisa and Degen, Judith
+  booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
+  keywords: contrastive inference; RSA; typicality; incremental processing
+  title: Production Expectations Modulate Contrastive Inference
+  volume: '42'
+  website: ''
+  year: '2020'
+- ENTRYTYPE: inproceedings
+  ID: 2020KursatDegen
+  abstract: "Studies addressing the question of whether scalar inferences generally\
+    \ incur a processing cost have yielded conflicting results. Constraint-based accounts,\
+    \ which seek to unify these conflicting results, make a prediction which we test\
+    \ here: the probability of an interpretation and the speed with which it is processed\
+    \ depends on the contextual support it receives. We manipulated contextual support\
+    \ for the scalar inference in two truth-value judgment experiments by manipulating\
+    \ a lexical feature (presence of partitive \u201Cof the\u201D) and a pragmatic\
+    \ feature (the implicit Question Under Discussion). Participants\u2019 responder\
+    \ type \u2013 whether their majority response was pragmatic (reflecting the inference)\
+    \ or literal (reflecting its absence) \u2013 was the main predictor of response\
+    \ times: pragmatic responses were faster than literal responses when generated\
+    \ by pragmatic responders; the reverse was true for literal responders. We interpret\
+    \ this as further evidence against costly inference accounts and in support of\
+    \ constraint-based accounts of pragmatic processing."
+  author: Kursat, Leyla and Degen, Judith
+  booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
+  keywords: psycholinguistics; experimental pragmatics; scalar inference; Question
+    Under Discussion
+  title: Probability and processing speed of scalar inferences is context-dependent
+  volume: '42'
+  website: ''
+  year: '2020'
+- ENTRYTYPE: inproceedings
+  ID: 2020PortelanceDegenEtAl
+  abstract: Vocabulary growth and syntactic development are known to be highly correlated
+    in early child language. What determines when words are acquired and how can this
+    help us understand what drives early language development? We train an LSTM language
+    model, known to detect syntactic regularities that are relevant for predicting
+    the difficulty of words, on child-directed speech. We use the average surprisal
+    of words for the model, which encodes sequential predictability, as a predictor
+    for the age of acquisition of words in early child language. We compare this predictor
+    to word frequency and others and find that average surprisal is a good predictor
+    for the age of acquisition of function words and predicates beyond frequency,
+    but not for nouns. Our approach provides insight into what makes a good model
+    of early word learning, especially for words whose meanings rely heavily on linguistic
+    context.
+  author: Portelance, Eva and Degen, Judith and Frank, Michael C.
+  booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
+  keywords: Language model; recurrent neural network; LSTM; language acquisition;
+    age of acquisition; child directed speech; word learning.
+  title: Predicting Age of Acquisition in Early Word Learning Using Recurrent Neural
+    Networks
+  volume: '42'
+  website: ''
+  year: '2020'
+- ENTRYTYPE: inproceedings
+  ID: 2020SchusterChenEtAl
+  abstract: "Pragmatic inferences often subtly depend on the presence or absence of\
+    \ linguistic features. For example, the presence of a partitive construction (of\
+    \ the) increases the strength of a so-called scalar inference: listeners perceive\
+    \ the inference that Chris did not eat all of the cookies to be stronger after\
+    \ hearing \u201CChris ate some of the cookies\u201D than after hearing the same\
+    \ utterance without a partitive, \u201CChris ate some cookies\u201D. In this work,\
+    \ we explore to what extent neural network sentence encoders can learn to predict\
+    \ the strength of scalar inferences. We first show that an LSTM-based sentence\
+    \ encoder trained on an English dataset of human inference strength ratings is\
+    \ able to predict ratings with high accuracy (r = 0.78). We then probe the model\u2019\
+    s behavior using manually constructed minimal sentence pairs and corpus data.\
+    \ We find that the model inferred previously established associations between\
+    \ linguistic features and inference strength, suggesting that the model learns\
+    \ to use linguistic features to predict pragmatic inferences."
+  author: Schuster, Sebastian and Chen, Yuxing and Degen, Judith
+  booktitle: Proceedings of the 58th Annual Meeting of the Association for Computational
+    Linguistics
+  doi: '1910.14254'
+  keywords: computational pragmatics; scalar implicature; neural networks
+  pages: 5387--5403
+  title: Harnessing the linguistic signal to predict scalar inferences
+  website: ''
+  year: '2020'
+- ENTRYTYPE: article
+  ID: 2020SchusterDegen
   abstract: "Pragmatic theories of utterance interpretation share the assumption that\
     \ listeners reason about alternative utterances that a speaker could have produced,\
     \ but didn't. For such reasoning to be successful, listeners must have precise\
@@ -613,56 +731,63 @@
   title: "I know what you\u2019re probably going to say: Listener adaptation to variable\
     \ use of uncertainty expressions"
   volume: '203'
-  website: papers/2020_SchusterDegen_submitted.pdf
+  website: ''
   year: '2020'
-- ENTRYTYPE: inproceedings
-  ID: Waldon
-  abstract: Truth Value Judgment Task experiments (TVJTs) are a common means of investigating
-    pragmatic competence, particularly with regards to scalar inference. We present
-    a novel quantitative linking function from pragmatic competence to participant
-    behavior on TVJTs, based upon a Bayesian probabilistic model of linguistic production.
-    Our model captures a range of observed phenomena on TVJTs, including intermediate
-    responses on a non-binary scale, population and individual-level variation, participant
-    endorsement of false utterances, and variation in response due to so-called scalar
-    diversity.
-  article: '3'
-  author: Waldon, Brandon and Degen, Judith
-  booktitle: Proceedings of the Society for Computation in Linguistics
-  doi: 10.7275/sg32-aq30
-  keywords: psycholinguistics; truth value judgement task; pragmatics; linking function
+- ENTRYTYPE: article
+  ID: 2020TonhauserDeMarneffeEtAl
+  abstract: 'Two contents of evaluative adjective sentences, like Kim was smart to
+    watch the movie, are the prejacent (that Kim watched the movie) and the generalization
+    (that the degree to which Kim watching the movie is smart was higher than the
+    contextual standard of smart). The prejacent is standardly analyzed as a presupposition
+    (e.g., Norrick 1978; Barker 2002; Oshima 2009; Kertz 2010). This paper argues
+    against such analyses of the prejacent because, among other things, they do not
+    capture an interaction between the prejacent and the generalization that has not
+    yet been observed for projective content: when the prejacent projects, the generalization
+    does not, and when the prejacent does not project, the generalization does. We
+    develop an analysis according to which the prejacent is not a lexically specified
+    presupposition but is projective to the extent that it is not at-issue with respect
+    to the question addressed by the utterance of the evaluative adjective sentence.
+    In addition to capturing the interaction between the prejacent and the generalization,
+    our question-based projection analysis extends previous such analyses (e.g., Beaver
+    & Clark 2008; Beaver et al. 2017; Simons et al. 2017) by incorporating a novel
+    constraint on the question addressed by an utterance: the more the interpreter
+    takes the truth of content c to follow from the common ground a priori, the less
+    likely the question is about c. We provide experimental evidence for the analysis
+    and argue that it improves on that of Karttunen et al. (2014), according to which
+    evaluative adjectives are ambiguous.'
+  author: Tonhauser, Judith and de Marneffe, Marie-Catherine and Degen, Judith
+  doi: 10.5334/gjgl.701
+  journal: 'Glossa: a journal of general linguistics '
   number: '1'
-  pages: 10--19
-  title: Modeling Behavior in Truth Value Judgment Task Experiments
-  volume: '3'
-  website: papers/2020_WaldonDegen
+  pages: '87'
+  title: 'Evaluative adjective sentences: A question-based analysis of projection'
+  url: https://www.glossa-journal.org/article/id/5335/
+  volume: '5'
+  website: ''
   year: '2020'
 - ENTRYTYPE: inproceedings
-  ID: SchusterChenDegen
-  abstract: "Pragmatic inferences often subtly depend on the presence or absence of\
-    \ linguistic features. For example, the presence of a partitive construction (of\
-    \ the) increases the strength of a so-called scalar inference: listeners perceive\
-    \ the inference that Chris did not eat all of the cookies to be stronger after\
-    \ hearing \u201CChris ate some of the cookies\u201D than after hearing the same\
-    \ utterance without a partitive, \u201CChris ate some cookies\u201D. In this work,\
-    \ we explore to what extent neural network sentence encoders can learn to predict\
-    \ the strength of scalar inferences. We first show that an LSTM-based sentence\
-    \ encoder trained on an English dataset of human inference strength ratings is\
-    \ able to predict ratings with high accuracy (r = 0.78). We then probe the model\u2019\
-    s behavior using manually constructed minimal sentence pairs and corpus data.\
-    \ We find that the model inferred previously established associations between\
-    \ linguistic features and inference strength, suggesting that the model learns\
-    \ to use linguistic features to predict pragmatic inferences."
-  author: Schuster, Sebastian and Chen, Yuxing and Degen, Judith
-  booktitle: Proceedings of the 58th Annual Meeting of the Association for Computational
-    Linguistics
-  doi: '1910.14254'
-  keywords: computational pragmatics; scalar implicature; neural networks
-  pages: 5387--5403
-  title: Harnessing the linguistic signal to predict scalar inferences
-  website: papers/2020_SchusterChenDegen.pdf
+  ID: 2020Waldon
+  abstract: "Modern semantic analyses of epistemic language (incl. the modal must)\
+    \ can be characterized by the \u2018credence assumption\u2019: speakers have full\
+    \ certainty regarding the propositions that structure their epistemic states.\
+    \ Intuitively, however: a) speakers have graded, rather than categorical, commitment\
+    \ to these propositions, which are often never fully and explicitly articulated;\
+    \ b) listeners have higher- order uncertainty about this speaker uncertainty;\
+    \ c) must \u03C6 is utensed to communicate speaker commitment to some conclusion\
+    \ \u03C6 and to indicate speaker commitment to the premises that condition the\
+    \ conclusion. I explore the consequences of relaxing the credence assumption by\
+    \ extending the argument system semantic framework first proposed by Stone (1994)\
+    \ to a Bayesian probabilistic framework of modeling pragmatic interpretation (Goodman\
+    \ and Frank, 2016)."
+  author: Waldon, Brandon
+  booktitle: Proceedings of Probability and Meaning (PaM2020)
+  pages: 34--40
+  title: 'Linguistic interpretation as inference under argument system uncertainty:
+    the case of epistemic must'
+  website: ''
   year: '2020'
 - ENTRYTYPE: inproceedings
-  ID: WaldonDegen2020b
+  ID: 2020WaldonDegenB
   abstract: "Scalar inferences are commonly assumed to involve both literal semantic\
     \ interpretation and social cognitive reasoning. However, the precise way to characterize\
     \ listeners\u2019 representation of context - including the space of possible\
@@ -684,101 +809,77 @@
     pragmatics
   title: Symmetric alternatives and semantic uncertainty modulate scalar inference
   volume: '42'
-  website: papers/2020_WaldonDegen_b.pdf
+  website: ''
   year: '2020'
 - ENTRYTYPE: inproceedings
-  ID: KursatDegen2020
-  abstract: "Studies addressing the question of whether scalar inferences generally\
-    \ incur a processing cost have yielded conflicting results. Constraint-based accounts,\
-    \ which seek to unify these conflicting results, make a prediction which we test\
-    \ here: the probability of an interpretation and the speed with which it is processed\
-    \ depends on the contextual support it receives. We manipulated contextual support\
-    \ for the scalar inference in two truth-value judgment experiments by manipulating\
-    \ a lexical feature (presence of partitive \u201Cof the\u201D) and a pragmatic\
-    \ feature (the implicit Question Under Discussion). Participants\u2019 responder\
-    \ type \u2013 whether their majority response was pragmatic (reflecting the inference)\
-    \ or literal (reflecting its absence) \u2013 was the main predictor of response\
-    \ times: pragmatic responses were faster than literal responses when generated\
-    \ by pragmatic responders; the reverse was true for literal responders. We interpret\
-    \ this as further evidence against costly inference accounts and in support of\
-    \ constraint-based accounts of pragmatic processing."
-  author: Kursat, Leyla and Degen, Judith
-  booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
-  keywords: psycholinguistics; experimental pragmatics; scalar inference; Question
-    Under Discussion
-  title: Probability and processing speed of scalar inferences is context-dependent
-  volume: '42'
-  website: papers/2020_KursatDegen.pdf
+  ID: 2020WaldonDegen
+  abstract: Truth Value Judgment Task experiments (TVJTs) are a common means of investigating
+    pragmatic competence, particularly with regards to scalar inference. We present
+    a novel quantitative linking function from pragmatic competence to participant
+    behavior on TVJTs, based upon a Bayesian probabilistic model of linguistic production.
+    Our model captures a range of observed phenomena on TVJTs, including intermediate
+    responses on a non-binary scale, population and individual-level variation, participant
+    endorsement of false utterances, and variation in response due to so-called scalar
+    diversity.
+  article: '3'
+  author: Waldon, Brandon and Degen, Judith
+  booktitle: Proceedings of the Society for Computation in Linguistics
+  doi: 10.7275/sg32-aq30
+  keywords: psycholinguistics; truth value judgement task; pragmatics; linking function
+  number: '1'
+  pages: 10--19
+  title: Modeling Behavior in Truth Value Judgment Task Experiments
+  volume: '3'
+  website: ''
   year: '2020'
 - ENTRYTYPE: inproceedings
-  ID: PortelanceDegenFrank2020
-  abstract: Vocabulary growth and syntactic development are known to be highly correlated
-    in early child language. What determines when words are acquired and how can this
-    help us understand what drives early language development? We train an LSTM language
-    model, known to detect syntactic regularities that are relevant for predicting
-    the difficulty of words, on child-directed speech. We use the average surprisal
-    of words for the model, which encodes sequential predictability, as a predictor
-    for the age of acquisition of words in early child language. We compare this predictor
-    to word frequency and others and find that average surprisal is a good predictor
-    for the age of acquisition of function words and predicates beyond frequency,
-    but not for nouns. Our approach provides insight into what makes a good model
-    of early word learning, especially for words whose meanings rely heavily on linguistic
-    context.
-  author: Portelance, Eva and Degen, Judith and Frank, Michael C.
-  booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
-  keywords: Language model; recurrent neural network; LSTM; language acquisition;
-    age of acquisition; child directed speech; word learning.
-  title: Predicting Age of Acquisition in Early Word Learning Using Recurrent Neural
-    Networks
-  volume: '42'
-  website: papers/2020_PortelanceDegenFrank.pdf
-  year: '2020'
-- ENTRYTYPE: inproceedings
-  ID: KreissDegen2020
-  abstract: "Contrastive inferences, whereby a listener pragmatically infers a speaker\u2019\
-    s referential intention of a partial referring expression like the yellow by reasoning\
-    \ about other objects in the context, are notoriously unstable. We report a production-centric\
-    \ model of interpretation couched within the Rational Speech Act framework. Adjective\
-    \ production probabilities a listener expects for objects in a context drive the\
-    \ size of contrastive inferences: the greater the asymmetry in expectation for\
-    \ a speaker to use a pre-nominal adjective for the target rather than for competitors,\
-    \ the greater the listener\u2019s resulting target preference. Modifier production\
-    \ probabilities were collected (Exp. 1) and used to make predictions about comprehension\
-    \ in an incremental decision task (Exp. 2). The model\u2019s interpretation predictions\
-    \ are supported by the data. This account has the potential to explain the fluctuating\
-    \ appearance of contrastive inferences and shifts the explanatory focus away from\
-    \ contrastive inference towards online interpretation of referring expressions\
-    \ more broadly."
-  author: Kreiss, Elisa and Degen, Judith
-  booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
-  keywords: contrastive inference; RSA; typicality; incremental processing
-  title: Production Expectations Modulate Contrastive Inference
-  volume: '42'
-  website: papers/2020_KreissDegen.pdf
-  year: '2020'
-- ENTRYTYPE: inproceedings
-  ID: Waldon2020
-  abstract: "Modern semantic analyses of epistemic language (incl. the modal must)\
-    \ can be characterized by the \u2018credence assumption\u2019: speakers have full\
-    \ certainty regarding the propositions that structure their epistemic states.\
-    \ Intuitively, however: a) speakers have graded, rather than categorical, commitment\
-    \ to these propositions, which are often never fully and explicitly articulated;\
-    \ b) listeners have higher- order uncertainty about this speaker uncertainty;\
-    \ c) must \u03C6 is utensed to communicate speaker commitment to some conclusion\
-    \ \u03C6 and to indicate speaker commitment to the premises that condition the\
-    \ conclusion. I explore the consequences of relaxing the credence assumption by\
-    \ extending the argument system semantic framework first proposed by Stone (1994)\
-    \ to a Bayesian probabilistic framework of modeling pragmatic interpretation (Goodman\
-    \ and Frank, 2016)."
-  author: Waldon, Brandon
-  booktitle: Proceedings of Probability and Meaning (PaM2020)
-  pages: 34--40
-  title: 'Linguistic interpretation as inference under argument system uncertainty:
-    the case of epistemic must'
-  website: papers/2020_Waldon.pdf
-  year: '2020'
+  ID: 2021KursatDegenEtAl
+  abstract: "Experimental investigation is fundamental to theory-building in cognitive\
+    \ science, but its value depends on the linking as- sumptions made by researchers\
+    \ about the mapping between empirical measurements and theoretical constructs.\
+    \ We ar- gue that sufficient clarity and justification are often lacking for linking\
+    \ assumptions made in visual world eye-tracking, a widely used experimental method\
+    \ in psycholinguistic research. We test what we term the Referential Belief linking\
+    \ assump- tion: that the proportion of looks to a referent in a time window reflects\
+    \ participants\u2019 degree of belief that the referent is the in- tended target\
+    \ in that time window. We do so by comparing eye-tracking data against explicit\
+    \ beliefs collected in an incre- mental decision task (Exp. 1), which replicates\
+    \ a scalar impli- cature processing study (Exp. 3 of Sun & Breheny, 2020). In\
+    \ Exp. 2, we replicate Sun and Breheny (2020) in a web-based eye-tracking paradigm\
+    \ using WebGazer.js. The results pro- vide support for the Referential Belief\
+    \ link and cautious opti- mism for the prospect of conducting web-based eye-tracking.\
+    \ We discuss limitations on both fronts."
+  author: 'Degen, Judith and Kursat, Leyla and Leigh, Daisy '
+  booktitle: Proceedings of the 43nd Annual Meeting of the Cognitive Science Society
+  journal: Proceedings of the Annual Meeting of the Cognitive Science Society
+  keywords: psycholinguistics, experimental pragmatics, scalar implicature, linking
+    functions, visual world, eye-tracking
+  title: 'Seeing is believing: testing an explicit linking assumption for visual world
+    eye-tracking in psycholinguistics'
+  volume: '43'
+  website: ''
+  year: '2021'
 - ENTRYTYPE: article
-  ID: HahnEtAl2021
+  ID: 2021DegenTonhauser
+  abstract: "Beliefs about the world affect language processing and interpretation\
+    \ in several empirical domains. In two experiments, we tested whether subjective\
+    \ prior beliefs about the probability of utterance content modulate projection,\
+    \ that is, listeners\u2019 inferences about speaker commitment to that content.\
+    \ We find that prior beliefs predict projection at both the group and the by-participant\
+    \ level: the higher the prior belief in a content, the more speakers are taken\
+    \ to be committed to it. This result motivates the integration of formal analyses\
+    \ of projection with cognitive theories of language understanding."
+  author: Degen, Judith and Tonhauser, Judith
+  doi: https://doi.org/10.1162/opmi_a_00042
+  journal: Open Mind
+  keywords: experimental semantics, experimental pragmatics, projection
+  pages: 59-70
+  title: Prior beliefs modulate projection
+  volume: '5'
+  website: https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00042/106927/Prior-Beliefs-Modulate-Projection
+  year: '2021'
+- ENTRYTYPE: article
+  ID: 2021HahnDegenEtAl
   abstract: 'Memory limitations are known to constrain language comprehension and
     production, and have been argued to account for crosslinguistic word order regularities.
 
@@ -824,12 +925,41 @@
   supplement: files/hahn_psychreview_2021_si.pdf
   title: Modeling word and morpheme order in natural language as an efficient tradeoff
     of memory and surprisal
-  url: files/hahn_psychreview_2021_final.pdf
   volume: '128'
-  website: papers/2021_HahnEtAl.pdf
+  website: ''
   year: '2021'
 - ENTRYTYPE: inproceedings
-  ID: Li2021
+  ID: 2021KursatDegen
+  abstract: "When referring to objects, speakers are often more specific than neces-\
+    \ sary for the purpose of establishing unique reference, e.g., by producing redundant\
+    \ modifiers. A computational model of referring expression production that accounts\
+    \ for many of the key patterns in redundant adjectival modification assumes that\
+    \ adjectives differ in how noisy (reliable), and consequently, how useful they\
+    \ are for reference. Here we investigate one hypothesis about the source of the\
+    \ assumed adjectival noise: that it reflects the perceptual difficulty of establishing\
+    \ whether the property denoted by the adjective holds of the contextually relevant\
+    \ objects. In Exp.1, we collect perceptual difficulty norms for items that vary\
+    \ in color and material. In Exp. 2, we test the highest (material) and lowest\
+    \ (color) perceptual dif- ficulty items in a reference game and find that material\
+    \ is indeed less likely to be mentioned redundantly, replicating previous work.\
+    \ In Exp. 3, we obtain norms for the tested items in a second perceptual difficulty\
+    \ measure with the aim of testing the effect of perceptual difficulty within property\
+    \ type. The overall results provide preliminary support for the hypothesis that\
+    \ the propensity to redundantly use color over material adjectives may be driven\
+    \ by the relative ease of assessing an object\u2019s color, compared to the relative\
+    \ difficulty of assessing its material."
+  author: Kursat, Leyla and Degen, Judith
+  booktitle: Proceedings of the Linguistic Society of America
+  doi: https://doi.org/10.3765/plsa.v6i1.5003
+  number: '1'
+  pages: 676--688
+  title: Perceptual difficulty differences predict asymmetry in redundant modification
+    with color and material adjectives
+  volume: '6'
+  website: ''
+  year: '2021'
+- ENTRYTYPE: inproceedings
+  ID: 2021LiSchusterEtAl
   abstract: "Neural networks have recently successfully learned to predict some pragmatic\
     \ inferences (e.g., Jeretic et al. (2020); Jiang and de Marneffe (2019)). For\
     \ instance, Schuster et al. (2020) trained a neuralnetwork to predict human ratings\
@@ -846,10 +976,26 @@
   title: Predicting scalar inferences from ``or'' to ``not both'' using neural sentence
     encoders
   volume: '4'
-  website: papers/2021_LiEtAl.pdf
+  website: ''
   year: '2021'
 - ENTRYTYPE: inproceedings
-  ID: Waldon2021
+  ID: 2021LuLassiterEtAl
+  abstract: Listeners adapt to variability in language use by updating their expectations
+    over variants, often in speaker-specific ways. We propose that adaptation of this
+    sort contributes to satiation, the phenomenon whereby the acceptability of unacceptable
+    sentences increases after repeated exposure. We provide support for an adaptation
+    account of satiation by showing that the satiation of purportedly unaccept- able
+    island-violating constructions demonstrates speaker- specificity, a key property
+    of adaptation.
+  author: Lu, Jiayi and Lassiter, Dan and Degen, Judith
+  booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
+  journal: Proceedings of the Annual Meeting of the Cognitive Science Society
+  title: Syntactic satiation is driven by speaker-specific adaptation
+  volume: '43'
+  website: ''
+  year: '2021'
+- ENTRYTYPE: inproceedings
+  ID: 2021Waldon
   abstract: "This paper is about epistemic must and might. A sizeable proportion of\
     \ the literature on epistemic modality takes as its point of departure data such\
     \ as the following: (1) (In the context of direct observation of rain): a. # It\
@@ -878,10 +1024,10 @@
   booktitle: Proceedings of the 56th Meeting of the Chicago Linguistic Society (CLS
     56)
   title: 'Epistemic must and might: evidence that argumentation is semantically encoded'
-  website: papers/2021_Waldon.pdf
+  website: ''
   year: to appear
 - ENTRYTYPE: inproceedings
-  ID: WaldonDegen2021
+  ID: 2021WaldonDegen
   abstract: "We present a novel probabilistic model of referring expression production,\
     \ synthesizing recent analyses proposed within the Rational Speech Act (RSA) framework\
     \ (Frank and Goodman, 2012). Our model makes incremental utterance choice predictions\
@@ -898,129 +1044,46 @@
   doi: https://doi.org/10.7275/vsfn-t057
   title: Modeling cross-linguistic production of referring expressions
   volume: '4'
-  website: papers/2021_WaldonDegen.pdf
+  website: ''
   year: '2021'
-- ENTRYTYPE: article
-  ID: DegenTonhauser2021
-  abstract: "Beliefs about the world affect language processing and interpretation\
-    \ in several empirical domains. In two experiments, we tested whether subjective\
-    \ prior beliefs about the probability of utterance content modulate projection,\
-    \ that is, listeners\u2019 inferences about speaker commitment to that content.\
-    \ We find that prior beliefs predict projection at both the group and the by-participant\
-    \ level: the higher the prior belief in a content, the more speakers are taken\
-    \ to be committed to it. This result motivates the integration of formal analyses\
-    \ of projection with cognitive theories of language understanding."
+- ENTRYTYPE: inproceedings
+  ID: 2022DegenPophristic
+  abstract: "While widely used in psycholinguistics, the linking hypothesis for eye\
+    \ movements in the visual world paradigm is still poorly understood. Recent work\
+    \ on linking hypotheses for referential tasks in particular has found mixed support\
+    \ for the Referential Belief Link: that the proportion of looks to a referent\
+    \ in a time window reflects participants\u2019 degree of belief that the referent\
+    \ is the intended target in that time window. Here we test the hypothesis that\
+    \ participants\u2019 expectations for the utterances observed in an experiment\
+    \ modulate the extent to which the Referential Belief Link holds. This hypothesis\
+    \ is motivated by a simple idea: when utterances are unexpected, listeners engage\
+    \ in additional reasoning to make sense of the observed signal. In a re-analysis\
+    \ of a previous eye movement and incremental decision task dataset, in conjunction\
+    \ with two novel production experiments, we find that the more surprising an observed\
+    \ utterance is, the smaller the correlation between explicit and implicit beliefs\
+    \ is. We discuss the importance of participants\u2019 production expectations\
+    \ in research using the visual world paradigm."
+  author: Degen, Judith and Pophristic, Stefan
+  booktitle: Proceedings of the 44th Annual Meeting of the Cognitive Science Society
+  keywords: psycholinguistics; experimental pragmatics; scalar implicature; linking
+    hypothesis; visual world paradigm; eye-tracking
+  title: The role of production expectations in visual world paradigm linking hypotheses
+  website: ''
+  year: '2022'
+- ENTRYTYPE: incollection
+  ID: 2022DegenTonhauser
   author: Degen, Judith and Tonhauser, Judith
-  doi: https://doi.org/10.1162/opmi_a_00042
-  journal: Open Mind
-  keywords: experimental semantics, experimental pragmatics, projection
-  pages: 59-70
-  title: Prior beliefs modulate projection
-  url: https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00042/106927/Prior-Beliefs-Modulate-Projection
-  volume: '5'
-  website: papers/2021_DegenTonhauser.pdf
-  year: '2021'
-- ENTRYTYPE: inproceedings
-  ID: KursatDegen2021
-  abstract: "When referring to objects, speakers are often more specific than neces-\
-    \ sary for the purpose of establishing unique reference, e.g., by producing redundant\
-    \ modifiers. A computational model of referring expression production that accounts\
-    \ for many of the key patterns in redundant adjectival modification assumes that\
-    \ adjectives differ in how noisy (reliable), and consequently, how useful they\
-    \ are for reference. Here we investigate one hypothesis about the source of the\
-    \ assumed adjectival noise: that it reflects the perceptual difficulty of establishing\
-    \ whether the property denoted by the adjective holds of the contextually relevant\
-    \ objects. In Exp.1, we collect perceptual difficulty norms for items that vary\
-    \ in color and material. In Exp. 2, we test the highest (material) and lowest\
-    \ (color) perceptual dif- ficulty items in a reference game and find that material\
-    \ is indeed less likely to be mentioned redundantly, replicating previous work.\
-    \ In Exp. 3, we obtain norms for the tested items in a second perceptual difficulty\
-    \ measure with the aim of testing the effect of perceptual difficulty within property\
-    \ type. The overall results provide preliminary support for the hypothesis that\
-    \ the propensity to redundantly use color over material adjectives may be driven\
-    \ by the relative ease of assessing an object\u2019s color, compared to the relative\
-    \ difficulty of assessing its material."
-  author: Kursat, Leyla and Degen, Judith
-  booktitle: Proceedings of the Linguistic Society of America
-  doi: https://doi.org/10.3765/plsa.v6i1.5003
-  number: '1'
-  pages: 676--688
-  title: Perceptual difficulty differences predict asymmetry in redundant modification
-    with color and material adjectives
-  volume: '6'
-  website: papers/2021_KursatDegen.pdf
-  year: '2021'
-- ENTRYTYPE: inproceedings
-  ID: DegenKursatLeigh2021
-  abstract: "Experimental investigation is fundamental to theory-building in cognitive\
-    \ science, but its value depends on the linking as- sumptions made by researchers\
-    \ about the mapping between empirical measurements and theoretical constructs.\
-    \ We ar- gue that sufficient clarity and justification are often lacking for linking\
-    \ assumptions made in visual world eye-tracking, a widely used experimental method\
-    \ in psycholinguistic research. We test what we term the Referential Belief linking\
-    \ assump- tion: that the proportion of looks to a referent in a time window reflects\
-    \ participants\u2019 degree of belief that the referent is the in- tended target\
-    \ in that time window. We do so by comparing eye-tracking data against explicit\
-    \ beliefs collected in an incre- mental decision task (Exp. 1), which replicates\
-    \ a scalar impli- cature processing study (Exp. 3 of Sun & Breheny, 2020). In\
-    \ Exp. 2, we replicate Sun and Breheny (2020) in a web-based eye-tracking paradigm\
-    \ using WebGazer.js. The results pro- vide support for the Referential Belief\
-    \ link and cautious opti- mism for the prospect of conducting web-based eye-tracking.\
-    \ We discuss limitations on both fronts."
-  author: 'Degen, Judith and Kursat, Leyla and Leigh, Daisy '
-  booktitle: Proceedings of the 43nd Annual Meeting of the Cognitive Science Society
-  journal: Proceedings of the Annual Meeting of the Cognitive Science Society
-  keywords: psycholinguistics, experimental pragmatics, scalar implicature, linking
-    functions, visual world, eye-tracking
-  title: 'Seeing is believing: testing an explicit linking assumption for visual world
-    eye-tracking in psycholinguistics'
-  volume: '43'
-  website: papers/2021_DegenKursatLeigh.pdf
-  year: '2021'
-- ENTRYTYPE: inproceedings
-  ID: LuLassiterDegen2021
-  abstract: Listeners adapt to variability in language use by updating their expectations
-    over variants, often in speaker-specific ways. We propose that adaptation of this
-    sort contributes to satiation, the phenomenon whereby the acceptability of unacceptable
-    sentences increases after repeated exposure. We provide support for an adaptation
-    account of satiation by showing that the satiation of purportedly unaccept- able
-    island-violating constructions demonstrates speaker- specificity, a key property
-    of adaptation.
-  author: Lu, Jiayi and Lassiter, Dan and Degen, Judith
-  booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
-  journal: Proceedings of the Annual Meeting of the Cognitive Science Society
-  title: Syntactic satiation is driven by speaker-specific adaptation
-  volume: '43'
-  website: papers/2021_LuLassiterDegen.pdf
-  year: '2021'
+  booktitle: The Open Handbook of Linguistic Data Management
+  doi: 10.7551/mitpress/12200.003.0052
+  isbn: '9780262366076'
+  month: '01'
+  publisher: The MIT Press
+  title: 'Managing Web Experiments for Psycholinguistics: An Example from Experimental
+    Semantics/Pragmatics'
+  website: ''
+  year: '2022'
 - ENTRYTYPE: article
-  ID: DegenTonhauserUnderreview
-  abstract: Properties of the content of the clausal complement have long been assumed
-    to distinguish factive predicates like 'know' from non-factive ones like 'think'
-    (Kiparsky and Kiparsky 1970, i.a.). There is, however, disagreement about which
-    properties define factive predicates as well as uncertainty about whether the
-    content of the complement of particular predicates exhibit the properties attributed
-    to the content of the complement of factive predicates. This has led to a lack
-    of consensus about which predicates are factive, a troublesome situation given
-    the central role that factivity plays in linguistic theorizing. This paper reports
-    six experiments designed to investigate two critical properties of the content
-    of the complement of clause-embedding predicates, namely projection and entailment,
-    with the goal of establishing whether these properties identify a class of factive
-    predicates. We find that factive predicates are more heterogeneous than previously
-    assumed and that there is little empirical support from these experiments for
-    the assumed categorical distinction between factive and non-factive predicates.
-    We discuss implications of our results for formal analyses of presuppositions,
-    one area where factivity has played a central role. We propose that projection
-    is sensitive to more fine-grained meaning distinctions between clause-embedding
-    predicates than factivity.
-  author: Degen, Judith and Tonhauser, Judith
-  booktitle: Language
-  title: Are there factive predicates? An empirical investigation
-  url: https://ling.auf.net/lingbuzz/005360
-  website: papers/DegenTonhauser_underreview.pdf
-  year: to appear
-- ENTRYTYPE: article
-  ID: HahnEtAl2022
+  ID: 2022HahnMathewEtAl
   abstract: 'The ordering of morphemes in a word displays well-documented regularities
     across languages. Previous work has explained these in terms of notions such as
     semantic scope, relevance, and productivity. Here, we test a recently formulated
@@ -1042,34 +1105,10 @@
   pages: 208-232
   title: Morpheme Ordering Across Languages Reflects Optimization for Processing Efficiency
   volume: '5'
-  website: papers/2022_HahnEtAl.pdf
+  website: ''
   year: '2022'
 - ENTRYTYPE: inproceedings
-  ID: 2022_DegenPophristic
-  abstract: "\nWhile widely used in psycholinguistics, the linking hypothesis for\
-    \ eye movements in the visual world paradigm is still poorly understood. Recent\
-    \ work on linking hypotheses for referential tasks in particular has found mixed\
-    \ support for the Referential Belief Link: that the proportion of looks to a referent\
-    \ in a time window reflects participants\u2019 degree of belief that the referent\
-    \ is the intended target in that time window. Here we test the hypothesis that\
-    \ participants\u2019 expectations for the utterances observed in an experiment\
-    \ modulate the extent to which the Referential Belief Link holds. This hypothesis\
-    \ is motivated by a simple idea: when utterances are unexpected, listeners engage\
-    \ in additional reasoning to make sense of the observed signal. In a re-analysis\
-    \ of a previous eye movement and incremental decision task dataset, in conjunction\
-    \ with two novel production experiments, we find that the more surprising an observed\
-    \ utterance is, the smaller the correlation between explicit and implicit beliefs\
-    \ is. We discuss the importance of participants\u2019 production expectations\
-    \ in research using the visual world paradigm."
-  author: Degen, Judith and Pophristic, Stefan
-  booktitle: Proceedings of the 44th Annual Meeting of the Cognitive Science Society
-  keywords: psycholinguistics; experimental pragmatics; scalar implicature; linking
-    hypothesis; visual world paradigm; eye-tracking
-  title: The role of production expectations in visual world paradigm linking hypotheses
-  website: papers/2022_DegenPophristic.pdf
-  year: '2022'
-- ENTRYTYPE: inproceedings
-  ID: 2022_KurstEtAl
+  ID: 2022KursatWaldonEtAl
   abstract: 'Redundant modification in referring expression production varies both
     within language (e.g., English speakers produce more redundant color than size
     modifiers) and cross- linguistically (e.g., English speakers produce more redundant
@@ -1093,10 +1132,29 @@
     Act; Bayesian Data Analysis
   title: Evaluating models of referring expression production on an emerging sign
     language
-  website: papers/2022_KursatEtAl.pdf
+  website: ''
   year: '2022'
 - ENTRYTYPE: inproceedings
-  ID: 2022_PapineauEtAl
+  ID: 2022LuWrightEtAl
+  abstract: 'A recent proposal of syntactic satiation claims that it is driven by
+    adaptation: comprehenders track and update their beliefs about the probability
+    of observing certain sentences, leading to subsequent increases in the acceptability
+    of those sentences. This leaves open what the representational targets of satiation
+    are, that is: what is the tracked information that belief update is based on?
+    In two acceptability judgment experiments, we show that exposure to one type of
+    island violation can lead to the satiation of another island type, suggesting
+    that island type-general representations are tracked by comprehenders in addition
+    to island type-specific representations. The same experimental paradigm can be
+    used for further exploration of the representational targets of satiation.'
+  author: Lu, Jiayi and Wright, Nicholas and Degen, Judith
+  booktitle: Proceedings of the 44th Annual Meeting of the Cognitive Science Society
+  keywords: psycholinguistics; island effect; adaptation; satiation; acceptability
+    judgments
+  title: Satiation effects generalize across island types
+  website: ''
+  year: '2022'
+- ENTRYTYPE: inproceedings
+  ID: 2022PapineauPodesvaEtAl
   abstract: "Language and gender are inextricably linked; we regularly make reference\
     \ to the genders of individuals around us, and the language used to do so recursively\
     \ feeds the biases we hold about gender in the social world. What has been left\
@@ -1116,29 +1174,36 @@
     and politics; morphology
   title: "\u2018Sally the Congressperson\u2019: The Role of Individual Ideology on\
     \ the Processing and Production of English Gender-Neutral Role Nouns"
-  website: papers/2022_PapineauEtAl.pdf
-  year: '2022'
-- ENTRYTYPE: inproceedings
-  ID: 2022_LuEtAl
-  abstract: 'A recent proposal of syntactic satiation claims that it is driven by
-    adaptation: comprehenders track and update their beliefs about the probability
-    of observing certain sentences, leading to subsequent increases in the acceptability
-    of those sentences. This leaves open what the representational targets of satiation
-    are, that is: what is the tracked information that belief update is based on?
-    In two acceptability judgment experiments, we show that exposure to one type of
-    island violation can lead to the satiation of another island type, suggesting
-    that island type-general representations are tracked by comprehenders in addition
-    to island type-specific representations. The same experimental paradigm can be
-    used for further exploration of the representational targets of satiation.'
-  author: Lu, Jiayi and Wright, Nicholas and Degen, Judith
-  booktitle: Proceedings of the 44th Annual Meeting of the Cognitive Science Society
-  keywords: psycholinguistics; island effect; adaptation; satiation; acceptability
-    judgments
-  title: Satiation effects generalize across island types
-  website: papers/2022_LuEtAl.pdf
+  website: ''
   year: '2022'
 - ENTRYTYPE: article
-  ID: SwansonEtAl_submitted
+  ID: ToAppearDegenTonhauser
+  abstract: Properties of the content of the clausal complement have long been assumed
+    to distinguish factive predicates like 'know' from non-factive ones like 'think'
+    (Kiparsky and Kiparsky 1970, i.a.). There is, however, disagreement about which
+    properties define factive predicates as well as uncertainty about whether the
+    content of the complement of particular predicates exhibit the properties attributed
+    to the content of the complement of factive predicates. This has led to a lack
+    of consensus about which predicates are factive, a troublesome situation given
+    the central role that factivity plays in linguistic theorizing. This paper reports
+    six experiments designed to investigate two critical properties of the content
+    of the complement of clause-embedding predicates, namely projection and entailment,
+    with the goal of establishing whether these properties identify a class of factive
+    predicates. We find that factive predicates are more heterogeneous than previously
+    assumed and that there is little empirical support from these experiments for
+    the assumed categorical distinction between factive and non-factive predicates.
+    We discuss implications of our results for formal analyses of presuppositions,
+    one area where factivity has played a central role. We propose that projection
+    is sensitive to more fine-grained meaning distinctions between clause-embedding
+    predicates than factivity.
+  author: Degen, Judith and Tonhauser, Judith
+  journal: Language
+  title: Are there factive predicates? An empirical investigation
+  url: https://ling.auf.net/lingbuzz/005360
+  website: ''
+  year: to appear
+- ENTRYTYPE: article
+  ID: SubmittedSwansonEtAl
   abstract: "Syntactic adaptation may be a key mechanism underlying children\u2019\
     s learning of novel words. Havron et al. (2019) exposed French-speaking children\
     \ (ages 3 to 4) to a speaker biased toward using either familiar verbs or familiar\
@@ -1156,5 +1221,5 @@
     \ of conducting eye-tracking studies through online platforms."
   author: Swanson, Elizabeth and Frank, Michael C. and Degen, Judith
   title: Syntactic Adaptation and Word Learning in Children and Adults
-  website: papers/SwansonEtAl_submitted.pdf
+  website: ''
   year: submitted

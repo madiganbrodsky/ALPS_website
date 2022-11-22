@@ -100,6 +100,47 @@
       <div class="wrapper">
         <p>Here’s how to edit this website!</p>
 
+<h1 id="editing-in-jekyll-the-basics">Editing in Jekyll: The basics</h1>
+
+<p>Feel free to skip this section if you’ve already worked in Jekyll.</p>
+
+<p>If anyone finds a good video explaining the basics of Jekyll please drop a link here!</p>
+
+<p>This website is built in Jekyll. In order to edit it you should have at least some familiarity with basic HTML, CSS, and Liquid (https://shopify.github.io/liquid/basics/). HTML and CSS are used for web development. Liquid is a Jekyll specific syntax that helps create the site dynamically.</p>
+
+<p>If you haven’t worked with any of these programs before, read some basic descriptions of each language (some good intro to HTML/CSS links can be found in the lab wiki). Then, read this section. After that you should be able to follow the instructions on this readme and make the changes. But I also recommend following the instructions under “View changes locally/Troubleshooting” section and trying to play around with the code, making minor changes like changing an image, changing the color of an element, or anything else. This will give you a more intuitive sense of how the website works, which will help in case anything ever breaks.</p>
+
+<p>This website is built in Jekyll rather than basic HTMl. If you’ve ever tried building a website using basic Jekyll you’ll find that you have to copy and paste a lot of code—for example if you want the same menu bar at the top of the website, and you want the code for each website page to be written in separate html documents, you have to copy and paste the code for the menu in each of these separate documents. This can become quite inefficient and prone to error if you ever want to edit the contents of the menu items (because you would have to make the same edits in every html document)! Jekyll resolves this issue by dynamically building the website—meaning it takes code from different html files and combines it in any way you tell it to.</p>
+
+<p>The basic framework is as follows. The html files that dictate how each of the pages looks like are stored in the _layouts folder. The base html file that all other files are based off of is default.html. All the other html files inherit the code from default.html, as specified by the header:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: default
+---
+</code></pre></div></div>
+<p>The _layouts folder also contains html files for the other pages which specify the layout specific to that page. Home.html for the home page, publications.html for the publications page, etc. Open them to get a sense of their content. You’ll notice that none of them actually have any content—just html and liquid code. This is where the structure of the Jekyll comes into play—all content is found in either markdown files (.md) in the root of the website or in the _data folder.</p>
+
+<p>Non-repeating content found in markdown files is what is fed to the html files in order to populate the page with what will actually be printed. So for example, open the 00-index.md. You’ll find content here specifying the image that should go on top (although technically that is an example of bad code as all html should be found in the home.html file and not in markdown…) and the text that will show up on the front page of the website. The header of this file looks like this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: home
+title: Home
+permalink: index.html
+---
+</code></pre></div></div>
+<p>Layout specifies which html file should be used as the layout format for this markdown content (i.e. home.html). Title specifies the title of the page (as it appears in the menu). Permalink creates an index.html file that will ultimately be printed on the webpage.</p>
+
+<p>Repeating content is located in the _data folder in .yml (yaml) files. This is content that you want to repeat over and over again (for example entries on the publications page or people in the people page), but be populated using the same formatting. In order to do this, we give the information structure inside the yaml files, and then have the html files dynamically populate the same information for each entry (e.g. publication entry or person) using loops. That way each entry has the exact same layout, but the information differs. The markdown files associated with this type of data are empty, because there is no non-repeating information on these pages. If you wanted to add, for example, some kind of paragraph at the beginning of the people page, you would add this paragraph in the people.md file.</p>
+
+<p>The repeating information is organized in yaml in a list format. A “-“ symbol indicates a new entry. Every entry has information specified with keys and values in a new line  as [key]: [value] (e.g. name: Judith). Indentations in yaml files matter. If an entry is double indented (two tabs), it is nestled under the entry with only one tab (and so forth). The liquid for loops in the .html files iterate through all entries that are on the same level (have the same indentation). In order to enter a deeper level (e.g. go from iterating through entries with one tab to iterating through entries with two tabs) you can nestle a for loop in another for loop. Examples of this can be found in people.html and publications.html (the for loops are commented with what they are doing).</p>
+
+<p>In summary:</p>
+<ul>
+  <li>.html = specifiying layout of of the page</li>
+  <li>.md = specifying content that does not repeat</li>
+  <li>.yml = specifying content that does repeat</li>
+</ul>
+
+<p>This website code has been worked on by several people. Not all of it is well commented and you will find lots of legacy code that does nothing/parts of the code that are messy. While you are working on the website, please keep this in mind and try to comment/clean messy code/delete delete obsolete code as much as you can (always documenting your changes on git!).</p>
+
 <h1 id="people-section">People Section</h1>
 <h2 id="add-a-person-to-the-website">Add a person to the website</h2>
 <p>You need:</p>
@@ -137,6 +178,23 @@
 </ol>
 
 <h1 id="publications">Publications</h1>
+
+<h2 id="naming-nomenclature">Naming Nomenclature</h2>
+
+<p>Bibtex entry keys and pdf names should be identical in order to link the [preprint] button with the pdf. The bib.bib file is ordered chronolocially with “submitted” and “to appear” articles at the bottom.</p>
+
+<p>The bib entry key and pdf name nomenclature used is: [year][AuthorLastName]</p>
+<ul>
+  <li>use CamelCase</li>
+  <li>Use the last names of the first two authors, if there are more than two append the string “EtAl” to the name</li>
+  <li>if there are multiple articles from the same years and same authors, append the second article name with “B”, the third with “C”, etc.</li>
+  <li>For “to appear” articles add the string “ToAppear” before the author last names</li>
+  <li>For “submitted” articles add the string “Submitted” before the author last names</li>
+</ul>
+
+<p>None of the keys use underscores in order to avoid parsing issues with certain programs which would interprate them as subscripts.</p>
+
+<p>Please keep the bib.bib file organized, otherwise mistakes/missing information is harder to find!</p>
 
 <h2 id="add-a-publication-entry">Add a publication entry</h2>
 <p>You need:</p>
@@ -193,6 +251,8 @@
 <p>If in step (2) you do not see the above input, but an error message, this means that there was an error compiling your code. These are usually syntax errors. The messages that pop up in terminal are helpful in locating the syntax error.</p>
 
 <p>If you make local changes with the website open locally on your browser, just hit save and the changes should automatically be reflected in your local browser. The fact that you saved the document will be reflected in the terminal in which you typed “jekyll serve”. The terminal will also show you error messages that come up as you are editing the website. Be aware that if you make a change that is fatal to the website (e.g. a syntax error), terminal will show you a red message letting you know that this error message will keep the site from working, but the locally running website will not reflect that change (or any future changes until you fix the fatal error).</p>
+
+<p>Final word of warning: the website that you see on the webpage is already compiled and entirely the output product of the jekyll framework, meaning it does not have access to the individual .html/.md/.yml files found in this repo nor does it have any access to the liquid syntax. So none of the that code will be visible in the web browser developer tools. In order to find and fix bugs, you have to use the terminal and the repo code and can’t solely rely on the (locally running) webpage.</p>
 
 <h1 id="publish-changes">Publish Changes</h1>
 <ol>
