@@ -1,7 +1,7 @@
 <!--
 Print out the publication entry for the publications page
 
-This includes links to the paper and a button which will show the bibtex entry 
+This includes links to the paper and a button which will show the bibtex entry
   the abstract, and a link to the preprint.
 -->
 
@@ -16,14 +16,22 @@ This includes links to the paper and a button which will show the bibtex entry
 
 <!-- Print the publication -->
 <p>
-  {%- if output.website != null -%}
+  {%- if output.website != "" -%}
     <a href="{{ output.website }}">{{ output.title }}</a>.
   {%- else -%}
     {{ output.title }}.
   {%- endif -%}
 
   &nbsp;{{ output.author }}. ({{ output.year }}).
-  In <i>{{ publicationName }}</i>.
+
+  <!-- Include the words "in" only for conference proceedings, and never
+        for "submitted" items -->
+  {%- if output.ENTRYTYPE == "inproceedings" and output.year != "submitted" -%}
+    In <i>{{ publicationName }}</i>.
+  {%- elsif output.year == "submitted" -%}
+  {%- else -%}
+    <i>{{ publicationName }}</i>.
+  {%- endif -%}
 
   {%- if output.doi -%}
   &nbsp doi:
@@ -32,7 +40,7 @@ This includes links to the paper and a button which will show the bibtex entry
   &nbsp
   <!-- Create Abstract, Preprint, and Bibtex buttons -->
   <a onclick="showOutput('abstract_{{ output.ID | slugify }}')">[abstract]</a>
-  <a href="{{ output.website }}">[preprint]</a>
+  <a href="papers/{{ output.ID }}.pdf">[preprint]</a>
   <a class="publicationButton" onclick="showOutput('bibtex_{{ output.ID | slugify }}')">[bibtex]</a>
 </p>
 
