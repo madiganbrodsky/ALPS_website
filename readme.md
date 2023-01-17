@@ -106,58 +106,10 @@ Furter Notes:
 
 Step (1): If the publication is not yet published, instead of including a year, write "to appear" (if its a manuscript that has been accepted already) or "submitted" (if its a manuscript that has been submitted but not yet accepted). In the Publication section, the "Pending", "To Appear", and "Submitted" headers will automatically appear if there is an entry in the bibtex where the year is set to "to appear" or "submitted".
 
-Step (2): We want to have a bibtex file with all the bib entries of our bibliography. However, the website only knows how to interface with yaml files, not bibtex files. So the python script takes everything in the bibtex file and converts it to a yaml file that the website can then parse. On the Publications page there is a [bibtex] button which shows the bibtex entry. This button doesn't actually reference the bib.bib file but rather takes the information from the yaml and converts it to text which is formatted like a bibtex entry.
-
+Step (2): We want to have a bibtex file with all the bib entries of our bibliography. However, the website only knows how to interface with yaml files, not bibtex files. So the python script takes everything in the bibtex file and converts it to a yaml file that the website can then parse. On the Publications page there is a [bibtex] button which shows the bibtex entry. This button doesn't actually reference the bib.bib file but rather takes the information from the yaml and converts it to text which is formatted like a bibtex entry. (Technically, this means that the information about each paper in the bib.bib file can be in any order, as this script orders the information in a standardized way. But, again, try to stay organized when editing the bib.bib file or adding a new publication!).
 
 ## Change publication information
 Do this if you found a mistake/missing link of a publication already published to the website, or if a publication has been published and needs to be moved from the "to appear" or "submitted" sections.
-
-## Information to include about each publication
-In the bib.bib file, you'll notice that the "header" of each paper is tagged with either:
-	1) "@incollection {...}"
-	2) "@inproceedings {...}"
-	3) "@article {...}"
-
-These "headers" mark where/how the article was published -- a chapter in a book, in the publication of conference proceedings, or in a scientific journal, respectively. While largely the same, depending on where the paper was published, different information about the article is provided in the bibtex. For each, follow this format for ordering of paper information. This helps to keep the bib.bib file organized!
-
-For "@incollection {...}" papers, the corresponding information should be in this order:
-	- author
-	- title
-	- year
-	- abstract
-	- website
-	- booktitle
-	- chapter
-	- editor
-	- isbn
-	- publisher
-
-
-For "@inproceedings {...}" papers, the corresponding information should be in this order:
-	- author
-	- title
-	- year
-	- abstract
-	- website
-	- journal
-	- publisher
-	- volume
-	- issue/ number
-	- pages
-	- keywords
-	- doi
-
-For "@article {...}" papers, the corresponding information should be in this order:
-	- author
-	- title
-	-	year
-	- abstract
-	- website
-	- book title
-	- keywords
-	- website
-
-We want to try our best to have information in all of the fields, but it might not exist/apply or be incredibly difficult to find. Just try your best. If there is any extra information, just put it at the bottom. 
 
 # View changes locally/Troubleshooting
 You need:

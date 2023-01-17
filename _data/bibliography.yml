@@ -1,5 +1,14 @@
 - ENTRYTYPE: inproceedings
   ID: 2011DegenTanenhaus
+  abstract: Scalar implicature has served as a test case for investigating the nature
+    of inference processes in language comprehension. Specifically, the question of
+    whether or not scalar implicatures are computed by default has been extensively
+    investigated in recent years. We argue that the question of default is overly
+    simplistic and propose instead to think of scalar implicature computation as a
+    problem of optimal cue combination within a constraint-based framework. We provide
+    evidence from three experiments supporting the view that multiple constraints
+    of differing strength operate in parallel to provide probabilistic support for
+    or against an implicature.
   author: Degen, Judith and Tanenhaus, Michael K.
   booktitle: Proceedings of the 33rd Annual Conference of the Cognitive Science Society
   editor: "Carlson, L. and H\xF6lscher, C. and Shipley, T."
@@ -873,56 +882,6 @@
   title: Prior beliefs modulate projection
   volume: '5'
   website: https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00042/106927/Prior-Beliefs-Modulate-Projection
-  year: '2021'
-- ENTRYTYPE: article
-  ID: 2021HahnDegenEtAl
-  abstract: 'Memory limitations are known to constrain language comprehension and
-    production, and have been argued to account for crosslinguistic word order regularities.
-
-    However, a systematic assessment of the role of memory limitations in language
-    structure has proven elusive, in part because it is hard to extract precise large-scale
-    quantitative generalizations about language from existing mechanistic models of
-    memory use in sentence processing.
-
-    We provide an architecture-independent information-theoretic formalization of
-    memory limitations which enables a simple calculation of the memory efficiency
-    of languages.
-
-    Our notion of memory efficiency is based on the idea of a memory--surprisal tradeoff:
-    a certain level of average surprisal per word can only be achieved at the cost
-    of storing some amount of information about past context.
-
-    Based on this notion of memory usage, we advance the Efficient Tradeoff Hypothesis:
-    the order of elements in natural language is under pressure to enable favorable
-    memory-surprisal tradeoffs.
-
-    We derive that languages enable more efficient tradeoffs when they exhibit information
-    locality: when predictive information about an element is concentrated in its
-    recent past.
-
-    We provide empirical evidence from three test domains in support of the Efficient
-    Tradeoff Hypothesis:
-
-    a reanalysis of a miniature artificial language learning experiment, a large-scale
-    study of word order in corpora of 54 languages, and an analysis of morpheme order
-    in two agglutinative languages. These results suggest that principles of order
-    in natural language can be explained via highly generic cognitively motivated
-    principles and lend support to efficiency-based models of the structure of human
-    language.'
-  archiveprefix: psyarxiv
-  author: Hahn, Michael and Degen, Judith and Futrell, Richard
-  doi: 10.1037/rev0000269
-  github: https://github.com/m-hahn/memory-surprisal
-  issue: '4'
-  journal: Psychological Review
-  pages: 726--756
-  preprint: https://psyarxiv.com/nu4qz
-  slides: files/osf-CUNY 2019-Tradeoff.pdf
-  supplement: files/hahn_psychreview_2021_si.pdf
-  title: Modeling word and morpheme order in natural language as an efficient tradeoff
-    of memory and surprisal
-  volume: '128'
-  website: https://psycnet.apa.org/record/2021-31510-001
   year: '2021'
 - ENTRYTYPE: inproceedings
   ID: 2021KursatDegen
