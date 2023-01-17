@@ -1,10 +1,3 @@
-- ENTRYTYPE: article
-  ID: 2007Degen
-  author: Degen, Judith
-  journal: Publications of the Institute of Cognitive Science, University of Osnabr{\{}{\"{u}}{\}}ck
-  title: 'Processing Scalar Implicatures: What Role Does the Question of {\{}D{\}}efault
-    Play for the Debate Between ({\{}N{\}}eo-){\{}G{\}}riceanism and {\{}R{\}}elevance
-    {\{}T{\}}heory?'
 - ENTRYTYPE: inproceedings
   ID: 2011DegenTanenhaus
   author: Degen, Judith and Tanenhaus, Michael K.
@@ -13,7 +6,7 @@
   keywords: experimental pragmatics,eye-tracking,scalar implicature,subitizing
   pages: 3299--3304
   title: 'Making inferences: the case of scalar implicature processing'
-  website: ''
+  website: https://escholarship.org/uc/item/2jn9g3gf
   year: '2011'
 - ENTRYTYPE: inproceedings
   ID: 2012DegenFranke
@@ -22,7 +15,7 @@
   editor: Brown-Schmidt, Sarah and Ginzburg, Jonathan and Larsson, S.
   pages: 2 -- 11
   title: Optimal Reasoning About Referential Expressions
-  website: ''
+  website: http://semdial.org/anthology/papers/Z/Z12/Z12-3004/
   year: '2012'
 - ENTRYTYPE: article
   ID: 2013Degen
@@ -45,20 +38,29 @@
     of scalar implicatures across different contexts, b) the varying speed of scalar
     implica- tures across different contexts, and c) the speed and efficiency of communication.
   author: Degen, Judith
-  institution: University of Rochester
+  journal: University of Rochester
   title: Alternatives in Pragmatic Reasoning
-  website: ''
+  website: https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=27503&versionNumber=1
   year: '2013'
 - ENTRYTYPE: inproceedings
   ID: 2013DegenFrankeEtAl
+  abstract: "We present data from three experiments addressing how much theory of\
+    \ mind reasoning is involved in production and interpretation of ambiguous referential\
+    \ expressions in an artificial language task, and how this interacts with the\
+    \ cost and availability of alternative utterances. When an unambiguous alternative\
+    \ is not available, listeners tend to draw simple Quantity inferences reminiscent\
+    \ of scalar implicatures (Grice, 1975). When an unambiguous alternative is available,\
+    \ fewer inferences are observed, but gradiently more as the cost of unambiguous\
+    \ alternatives increase. We outline a novel game theoretic model of pragmatic\
+    \ reasoning based on probabilistic back-and-forth reasoning about interlocutors\u2019\
+    \ rational choices and beliefs. The model provides a good fit to the data and\
+    \ raises interesting issues for future research."
   author: "Degen, Judith and Franke, Michael and J\xE4ger, Gerhard"
-  booktitle: ''
-  editor: ''
-  pages: ''
+  booktitle: Proceedings of the 35th Annual Meeting of the Cognitive Science Society
   title: Cost-Based Pragmatic Inference about Referential Expressions
-  website: ''
+  website: https://escholarship.org/uc/item/1td8n2r7
   year: '2013'
-- ENTRYTYPE: article
+- ENTRYTYPE: inproceedings
   ID: 2013YildrimDegenEtAl
   abstract: "People\u2019s representations of most and arguably all linguistic and\
     \ non-linguistic categories are probabilistic. However, in lin- guistic theory,\
@@ -72,8 +74,10 @@
     \ involving rich, probabilistic representations."
   author: Yildrim, Ilker and Degen, Judith and Tanenhaus, Michael J. and Jaeger, T.
     Florian
+  booktitle: Proceedings of the Annual Meeting of the Cognitive Science Society
   title: Linguistic Variability and Adaptation in Quantifier Meanings
-  website: ''
+  volume: '35'
+  website: https://escholarship.org/uc/item/7h5003md
   year: '2013'
 - ENTRYTYPE: article
   ID: 2014DegenGoodman
@@ -95,15 +99,28 @@
   keywords: pragmatics,psycholinguistics,scalar implicature
   pages: 397--402
   title: Lost your marbles? The puzzle of dependent measures in experimental pragmatics
-  website: ''
+  website: https://escholarship.org/uc/item/97t2w1f3
   year: '2014'
 - ENTRYTYPE: inproceedings
   ID: 2015HawkinsDegenEtAl
-  author: Hawkins, Robert XD and Stuhlm{\"u}ller, Andreas and Degen, Judith and Goodman,
+  abstract: "What makes a question useful? What makes an answer appropriate? In this\
+    \ paper, we formulate a family of increasingly sophisticated models of question-answer\
+    \ behavior within the Rational Speech Act framework. We compare these models based\
+    \ on three different pieces of evidence: first, we demonstrate how our answerer\
+    \ models capture a classic effect in psycholinguistics showing that an answerer\u2019\
+    s level of informativeness varies with the inferred questioner goal, while keeping\
+    \ the question constant. Second, we jointly test the questioner and answerer components\
+    \ of our model based on empirical evidence from a question-answer reasoning game.\
+    \ Third, we examine a special case of this game to further distinguish among the\
+    \ questioner models. We find that sophisticated pragmatic reasoning is needed\
+    \ to account for some of the data. People can use questions to provide cues to\
+    \ the answerer about their interest, and can select answers that are informative\
+    \ about inferred interests."
+  author: Hawkins, Robert XD and Stuhlmuller, Andreas and Degen, Judith and Goodman,
     Noah D
-  booktitle: CogSci
-  title: Why do you ask? Good questions provoke informative answers.
-  website: ''
+  booktitle: Proceedings of the 37th Annual Conference of the Cognitive Science Society
+  title: Why do you ask? Good questions provoke informative answers
+  website: https://cogsci.mindmodeling.org/2015/papers/0158/index.html
   year: '2015'
 - ENTRYTYPE: article
   ID: 2015Degen
@@ -131,7 +148,7 @@
     corpora and web-based methods
   url: http://dx.doi.org/10.3765/sp.8.11
   volume: '8'
-  website: ''
+  website: https://semprag.org/index.php/sp/article/view/sp.8.11
   year: '2015'
 - ENTRYTYPE: article
   ID: 2015DegenTanenhaus
@@ -163,9 +180,9 @@
   pmid: '25265993'
   title: Processing scalar implicature A constraint-based approach
   volume: '39'
-  website: ''
+  website: https://onlinelibrary.wiley.com/doi/10.1111/cogs.12171
   year: '2015'
-- ENTRYTYPE: article
+- ENTRYTYPE: inproceedings
   ID: 2015DegenTesslerEtAl
   abstract: "World knowledge enters into pragmatic utterance interpreta- tion in complex\
     \ ways, and may be defeasible in light of speak- ers' utterances. Yet there is\
@@ -191,7 +208,7 @@
   pages: 548--553
   publisher: Cognitive Science Society
   title: 'Wonky worlds: Listeners revise world knowledge when utterances are odd'
-  website: ''
+  website: https://cogsci.mindmodeling.org/2015/papers/0103/index.html
   year: '2015'
 - ENTRYTYPE: article
   ID: 2016DegenTanenhaus
@@ -219,7 +236,7 @@
   title: 'Availability of Alternatives and the Processing of Scalar Implicatures:
     A Visual World Eye-Tracking Study'
   volume: '40'
-  website: ''
+  website: https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.12227
   year: '2016'
 - ENTRYTYPE: article
   ID: 2016FrankeDegen
@@ -242,17 +259,7 @@
   title: 'Reasoning in Reference Games : Individual- vs . Population-Level Probabilistic
     Modeling'
   volume: '11'
-  website: ''
-  year: '2016'
-- ENTRYTYPE: inproceedings
-  ID: 2016FrankeDablanderEtAl
-  author: Franke, Michael and Dablander, Fabian and Sch{\"o}ller, Anthea and Bennett,
-    Erin and Degen, Judith and Tessler, Michael Henry and Kao, Justine T and Goodman,
-    Noah D
-  booktitle: CogSci
-  title: What does the crowd believe? A hierarchical approach to estimating subjective
-    beliefs from empirical data.
-  website: ''
+  website: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0154854
   year: '2016'
 - ENTRYTYPE: inproceedings
   ID: 2016GrafDegenEtAl
@@ -278,7 +285,7 @@
   pages: 2261--2266
   publisher: Cognitive Science Society
   title: Animal, dog, or dalmatian? Level of abstraction in nominal referring expressions
-  website: ''
+  website: https://cogsci.mindmodeling.org/2016/papers/0392/index.html
   year: '2016'
 - ENTRYTYPE: article
   ID: 2016YildirimDegenEtAl
@@ -304,9 +311,8 @@
   pages: 128--143
   publisher: Elsevier Inc.
   title: Talker-specificity and adaptation in quantifier interpretation
-  url: http://dx.doi.org/10.1016/j.jml.2015.08.003
   volume: '87'
-  website: ''
+  website: https://www.sciencedirect.com/science/article/pii/S0749596X15000996?via%3Dihub
   year: '2016'
 - ENTRYTYPE: article
   ID: 2017ScontrasDegenEtAl
@@ -325,9 +331,8 @@
   pages: 53--66
   publisher: MIT Press
   title: Subjectivity Predicts Adjective Ordering Preferences
-  url: http://dx.doi.org/10.1162/OPMI{\_}a{\_}00005
   volume: '1'
-  website: ''
+  website: https://direct.mit.edu/opmi/article/1/1/53/2934/Subjectivity-Predicts-Adjective-Ordering
   year: '2017'
 - ENTRYTYPE: inproceedings
   ID: 2018HahnDegenEtAl
@@ -348,7 +353,7 @@
     Futrell, Richard
   booktitle: Proceedings of the 40th Annual Conference of the Cognitive Science Society
   title: An Information-Theoretic Explanation of Adjective Ordering Preferences
-  website: ''
+  website: https://cogsci.mindmodeling.org/2018/papers/0339/index.html
   year: '2018'
 - ENTRYTYPE: inproceedings
   ID: 2018QingLassiterEtAl
@@ -376,7 +381,7 @@
   keywords: eye-tracking,gradable adjectives,imprecision,linking functions,pragmatics,semantics,vagueness,visual
     world
   title: What do eye movements in the visual world reflect? A case study from adjectives
-  website: ''
+  website: https://cogsci.mindmodeling.org/2018/papers/0440/index.html
   year: '2018'
 - ENTRYTYPE: article
   ID: 2018TonhauserBeaverEtAl
@@ -404,7 +409,7 @@
   title: How projective is projective content? Gradience in projectivity and at-issueness
   url: https://academic.oup.com/jos/article/35/3/495/5042798?guestAccessKey=0fa933df-299f-439f-b622-b130e730c3b8
   volume: '35'
-  website: ''
+  website: https://www.sciencedirect.com/science/article/pii/S0749596X15000996?via%3Dihub
   year: '2018'
 - ENTRYTYPE: incollection
   ID: 2019DegenTanenhaus
@@ -420,14 +425,13 @@
     is closer in spirit to the parallelism account than the informational privilege
     account. The approach is also extended to other pragmatic phenomena.'
   author: Degen, Judith and Tanenhaus, Michael K.
-  booktitle: Handbook of Experimental Semantics and Pragmatics
+  booktitle: Oxford Handbook of Experimental Semantics and Pragmatics
   chapter: '3'
-  doi: 10.1093/oxfordhb/9780198791768.013.8
   editor: Cummins, Chris and Katsos, Napoleon
   isbn: '9780198791768'
   publisher: Oxford University Press
   title: Constraint-based pragmatic processing
-  website: ''
+  website: https://academic.oup.com/edited-volume/38644
   year: '2019'
 - ENTRYTYPE: article
   ID: 2019DegenTrotzkeEtAl
@@ -458,7 +462,7 @@
   title: 'Definitely, maybe: A new experimental paradigm for investigating the pragmatics
     of evidential devices across languages'
   volume: '140'
-  website: ''
+  website: https://www.sciencedirect.com/science/article/pii/S0378216618301383
   year: '2019'
 - ENTRYTYPE: article
   ID: 2019JasbiWaldonEtAl
@@ -517,7 +521,7 @@
     evidence
   title: Uncertain evidence statements and guilt perception in iterative reproductions
     of crime stories
-  website: ''
+  website: https://cogsci.mindmodeling.org/2019/papers/0359/index.html
   year: '2019'
 - ENTRYTYPE: inproceedings
   ID: 2019SchusterDegen
@@ -538,7 +542,7 @@
   booktitle: Proceedings of the 41st Annual Conference of the Cognitive Science Society
   keywords: psycholinguistics; semantics; pragmatics; adaptation; uncertainty expressions
   title: Speaker-specific adaptation to variable use of uncertainty expressions
-  website: ''
+  website: https://cogsci.mindmodeling.org/2019/papers/0471/index.html
   year: '2019'
 - ENTRYTYPE: article
   ID: 2019ScontrasDegenEtAl
@@ -560,7 +564,7 @@
   keywords: adjective ordering, subjectivity, hierarchical structure, modification,
     reference resolution
   title: On the grammatical source of adjective ordering preferences
-  website: ''
+  website: https://semprag.org/index.php/sp/article/view/sp.12.7
   year: '2019'
 - ENTRYTYPE: article
   ID: 2020DegenHawkinsEtAl
@@ -590,16 +594,9 @@
   pages: "591\u2013621"
   title: 'When redundancy is useful: A Bayesian approach to `overinformative'' referring
     expressions'
-  url: https://psycnet.apa.org/record/2020-22960-001
   volume: '127'
-  website: ''
+  website: https://psycnet.apa.org/record/2020-22960-001
   year: '2020'
-- ENTRYTYPE: article
-  ID: 2019DegenTonhauser
-  author: Degen, Judith and Tonhauser, Judith
-  title: Managing data for experimental semantics and pragmatics
-  website: ''
-  year: '2019'
 - ENTRYTYPE: inproceedings
   ID: 2020KreissDegen
   abstract: "Contrastive inferences, whereby a listener pragmatically infers a speaker\u2019\
@@ -645,7 +642,7 @@
     Under Discussion
   title: Probability and processing speed of scalar inferences is context-dependent
   volume: '42'
-  website: ''
+  website: https://cognitivesciencesociety.org/cogsci20/papers/0051/index.html
   year: '2020'
 - ENTRYTYPE: inproceedings
   ID: 2020PortelanceDegenEtAl
@@ -668,7 +665,7 @@
   title: Predicting Age of Acquisition in Early Word Learning Using Recurrent Neural
     Networks
   volume: '42'
-  website: ''
+  website: https://cognitivesciencesociety.org/cogsci20/papers/0184/index.html
   year: '2020'
 - ENTRYTYPE: inproceedings
   ID: 2020SchusterChenEtAl
@@ -693,7 +690,7 @@
   keywords: computational pragmatics; scalar implicature; neural networks
   pages: 5387--5403
   title: Harnessing the linguistic signal to predict scalar inferences
-  website: ''
+  website: https://arxiv.org/abs/1910.14254
   year: '2020'
 - ENTRYTYPE: article
   ID: 2020SchusterDegen
@@ -731,7 +728,7 @@
   title: "I know what you\u2019re probably going to say: Listener adaptation to variable\
     \ use of uncertainty expressions"
   volume: '203'
-  website: ''
+  website: https://www.sciencedirect.com/science/article/pii/S0010027720301049
   year: '2020'
 - ENTRYTYPE: article
   ID: 2020TonhauserDeMarneffeEtAl
@@ -757,13 +754,12 @@
     evaluative adjectives are ambiguous.'
   author: Tonhauser, Judith and de Marneffe, Marie-Catherine and Degen, Judith
   doi: 10.5334/gjgl.701
-  journal: 'Glossa: a journal of general linguistics '
+  journal: 'Glossa: a journal of general linguistics'
   number: '1'
   pages: '87'
   title: 'Evaluative adjective sentences: A question-based analysis of projection'
-  url: https://www.glossa-journal.org/article/id/5335/
   volume: '5'
-  website: ''
+  website: https://www.glossa-journal.org/article/id/5335/
   year: '2020'
 - ENTRYTYPE: inproceedings
   ID: 2020Waldon
@@ -784,7 +780,7 @@
   pages: 34--40
   title: 'Linguistic interpretation as inference under argument system uncertainty:
     the case of epistemic must'
-  website: ''
+  website: https://aclanthology.org/2020.pam-1.5/
   year: '2020'
 - ENTRYTYPE: inproceedings
   ID: 2020WaldonDegenB
@@ -809,7 +805,7 @@
     pragmatics
   title: Symmetric alternatives and semantic uncertainty modulate scalar inference
   volume: '42'
-  website: ''
+  website: https://cognitivesciencesociety.org/cogsci20/papers/0029/index.html
   year: '2020'
 - ENTRYTYPE: inproceedings
   ID: 2020WaldonDegen
@@ -830,7 +826,7 @@
   pages: 10--19
   title: Modeling Behavior in Truth Value Judgment Task Experiments
   volume: '3'
-  website: ''
+  website: https://scholarworks.umass.edu/scil/vol3/iss1/3/
   year: '2020'
 - ENTRYTYPE: inproceedings
   ID: 2021KursatDegenEtAl
@@ -857,7 +853,7 @@
   title: 'Seeing is believing: testing an explicit linking assumption for visual world
     eye-tracking in psycholinguistics'
   volume: '43'
-  website: ''
+  website: https://escholarship.org/uc/item/6182t9jb
   year: '2021'
 - ENTRYTYPE: article
   ID: 2021DegenTonhauser
@@ -926,7 +922,7 @@
   title: Modeling word and morpheme order in natural language as an efficient tradeoff
     of memory and surprisal
   volume: '128'
-  website: ''
+  website: https://psycnet.apa.org/record/2021-31510-001
   year: '2021'
 - ENTRYTYPE: inproceedings
   ID: 2021KursatDegen
@@ -956,7 +952,7 @@
   title: Perceptual difficulty differences predict asymmetry in redundant modification
     with color and material adjectives
   volume: '6'
-  website: ''
+  website: https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/5003
   year: '2021'
 - ENTRYTYPE: inproceedings
   ID: 2021LiSchusterEtAl
@@ -976,7 +972,7 @@
   title: Predicting scalar inferences from ``or'' to ``not both'' using neural sentence
     encoders
   volume: '4'
-  website: ''
+  website: https://scholarworks.umass.edu/scil/vol4/iss1/55/
   year: '2021'
 - ENTRYTYPE: inproceedings
   ID: 2021LuLassiterEtAl
@@ -992,7 +988,7 @@
   journal: Proceedings of the Annual Meeting of the Cognitive Science Society
   title: Syntactic satiation is driven by speaker-specific adaptation
   volume: '43'
-  website: ''
+  website: https://escholarship.org/uc/item/1dn4v3b4
   year: '2021'
 - ENTRYTYPE: inproceedings
   ID: 2021Waldon
@@ -1024,8 +1020,8 @@
   booktitle: Proceedings of the 56th Meeting of the Chicago Linguistic Society (CLS
     56)
   title: 'Epistemic must and might: evidence that argumentation is semantically encoded'
-  website: ''
-  year: to appear
+  website: https://www.ingentaconnect.com/contentone/cls/pcls/2021/00000056/00000001/art00035
+  year: '2022'
 - ENTRYTYPE: inproceedings
   ID: 2021WaldonDegen
   abstract: "We present a novel probabilistic model of referring expression production,\
@@ -1044,7 +1040,29 @@
   doi: https://doi.org/10.7275/vsfn-t057
   title: Modeling cross-linguistic production of referring expressions
   volume: '4'
-  website: ''
+  website: https://scholarworks.umass.edu/scil/vol4/iss1/20/
+  year: '2021'
+- ENTRYTYPE: inproceedings
+  ID: 2021MoyerDegen
+  abstract: "Asking and answering questions is a staple of human communication. To\
+    \ answer a question effectively, a hearer must interpret the speaker's intention\
+    \ given the specific question asked. \u2018Wh\u2019-questions like \u2018Where\
+    \ can I get coffee?\u2019 are underspecified for (non-)exhaustivity, i.e., how\
+    \ many answers must be provided to resolve the speaker's goal. Intuitions from\
+    \ the semantics literature report that questions are generally exhaustive, and\
+    \ non-exhaustive only in the context of specific linguistic factors (e.g., the\
+    \ modal \u2018can\u2019, certain \u2018wh\u2019-words). To test these assumptions,\
+    \ we collected question paraphrase ratings for naturally occurring root questions\
+    \ in variable linguistic contexts. In contrast to previous claims, we find that\
+    \ questions are not biased for exhaustivity. However, other prior observations\
+    \ are supported by the data. We argue that a full account of the observed distribution\
+    \ of meanings must integrate discourse factors like the hearer's estimate of the\
+    \ speaker's goal, alongside (or subsuming the effect of) linguistic cues."
+  author: Moyer, Morgan and Degen, Judith
+  booktitle: Proceedings of the Annual Meeting of the Cognitive Science Society
+  title: Who thinks wh-questions are exhaustive?
+  volume: '43'
+  website: https://escholarship.org/uc/item/2gb4k3gt
   year: '2021'
 - ENTRYTYPE: inproceedings
   ID: 2022DegenPophristic
@@ -1068,7 +1086,7 @@
   keywords: psycholinguistics; experimental pragmatics; scalar implicature; linking
     hypothesis; visual world paradigm; eye-tracking
   title: The role of production expectations in visual world paradigm linking hypotheses
-  website: ''
+  website: https://escholarship.org/uc/item/7dv5142s
   year: '2022'
 - ENTRYTYPE: incollection
   ID: 2022DegenTonhauser
@@ -1080,7 +1098,7 @@
   publisher: The MIT Press
   title: 'Managing Web Experiments for Psycholinguistics: An Example from Experimental
     Semantics/Pragmatics'
-  website: ''
+  website: https://doi.org/10.7551/mitpress/12200.001.0001
   year: '2022'
 - ENTRYTYPE: article
   ID: 2022HahnMathewEtAl
@@ -1105,7 +1123,7 @@
   pages: 208-232
   title: Morpheme Ordering Across Languages Reflects Optimization for Processing Efficiency
   volume: '5'
-  website: ''
+  website: https://direct.mit.edu/books/book/5244/The-Open-Handbook-of-Linguistic-Data-Management
   year: '2022'
 - ENTRYTYPE: inproceedings
   ID: 2022KursatWaldonEtAl
@@ -1132,7 +1150,7 @@
     Act; Bayesian Data Analysis
   title: Evaluating models of referring expression production on an emerging sign
     language
-  website: ''
+  website: https://escholarship.org/uc/item/3hf1b8q7
   year: '2022'
 - ENTRYTYPE: inproceedings
   ID: 2022LuWrightEtAl
@@ -1151,7 +1169,7 @@
   keywords: psycholinguistics; island effect; adaptation; satiation; acceptability
     judgments
   title: Satiation effects generalize across island types
-  website: ''
+  website: https://escholarship.org/uc/item/90j270js
   year: '2022'
 - ENTRYTYPE: inproceedings
   ID: 2022PapineauPodesvaEtAl
@@ -1174,10 +1192,10 @@
     and politics; morphology
   title: "\u2018Sally the Congressperson\u2019: The Role of Individual Ideology on\
     \ the Processing and Production of English Gender-Neutral Role Nouns"
-  website: ''
+  website: https://escholarship.org/uc/item/8k59g29g
   year: '2022'
 - ENTRYTYPE: article
-  ID: ToAppearDegenTonhauser
+  ID: 2022DegenTonhauserB
   abstract: Properties of the content of the clausal complement have long been assumed
     to distinguish factive predicates like 'know' from non-factive ones like 'think'
     (Kiparsky and Kiparsky 1970, i.a.). There is, however, disagreement about which
@@ -1198,10 +1216,13 @@
     predicates than factivity.
   author: Degen, Judith and Tonhauser, Judith
   journal: Language
+  pages: 552-591
+  publisher: Linguistic Society of America
   title: Are there factive predicates? An empirical investigation
   url: https://ling.auf.net/lingbuzz/005360
-  website: ''
-  year: to appear
+  volume: '98'
+  website: https://muse.jhu.edu/pub/24/article/864635
+  year: '2022'
 - ENTRYTYPE: article
   ID: SubmittedSwansonEtAl
   abstract: "Syntactic adaptation may be a key mechanism underlying children\u2019\
@@ -1220,6 +1241,30 @@
     \ the role of rapid adaptation during word learning and demonstrate the feasibility\
     \ of conducting eye-tracking studies through online platforms."
   author: Swanson, Elizabeth and Frank, Michael C. and Degen, Judith
+  doi: 10.31234/osf.io/zkvcq
   title: Syntactic Adaptation and Word Learning in Children and Adults
-  website: ''
+  website: https://psyarxiv.com/zkvcq/
   year: submitted
+- ENTRYTYPE: article
+  ID: 2023Degen
+  abstract: 'The past decade has seen the rapid development of a new approach to pragmatics
+    that attempts to integrate insights from formal and experimental semantics and
+    pragmatics, psycholinguistics, and computational cognitive science in the study
+    of meaning: probabilistic pragmatics. The most influential probabilistic approach
+    to pragmatics is the Rational Speech Act (RSA) framework. In this review, I demonstrate
+    the basic mechanics and commitments of RSA as well as some of its standard extensions,
+    highlighting the key features that have led to its success in accounting for a
+    wide variety of pragmatic phenomena. Fundamentally, it treats language as probabilistic,
+    informativeness as gradient, alternatives as context-dependent, and subjective
+    prior beliefs (world knowledge) as a crucial facet of interpretation. It also
+    provides an integrated account of the link between production and interpretation.
+    I highlight key challenges for RSA, which include scalability, the treatment of
+    the boundedness of cognition, and the incremental and compositional nature of
+    language.'
+  author: Degen, Judith
+  journal: Annual Review of Linguistics
+  number: '3'
+  title: The Rational Speech Act Framework
+  volume: '98'
+  website: https://www.annualreviews.org/doi/abs/10.1146/annurev-linguistics-031220-010811
+  year: '2023'
