@@ -291,11 +291,11 @@ table td { padding: 18px; border-top: 1px solid #000000; border-bottom: 1px soli
 /*.slick-dots { @media screen and (max-width: 469px) { position: relative !important; bottom: 0px !important; } }*/
 button::-moz-focus-inner { outline: 0; border: 0; zoom: normal; }
 
-.abstract { margin-left: 60px; margin-right: 60px; display: none; font-size: 14px; }
+.Abstract { margin-left: 60px; margin-right: 60px; display: none; font-size: 14px; }
 
-.bibtex { margin-left: 60px; margin-right: 60px; display: none; font-size: 14px; }
+.BibTex { margin-left: 60px; margin-right: 60px; display: none; font-size: 14px; }
 
-.minilinks { font-size: 11.2px; }
+.minilinks { font-size: 14.4px; }
 
 .minilinks a { background-color: #eee; }
 

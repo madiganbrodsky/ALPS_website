@@ -752,13 +752,13 @@ $image-width:	200px;
 
 button::-moz-focus-inner { outline: 0; border: 0; zoom: normal; }
 
-.abstract {
+.Abstract {
     margin-left: $spacing-unit * 2;
     margin-right: $spacing-unit * 2;
     display: none;
     font-size: $small-font-size;
 }
-.bibtex {
+.BibTex {
     margin-left: $spacing-unit * 2;
     margin-right: $spacing-unit * 2;
     display: none;
@@ -766,7 +766,7 @@ button::-moz-focus-inner { outline: 0; border: 0; zoom: normal; }
 }
 
 .minilinks {
-    font-size: $base-font-size * 0.7;
+    font-size: $base-font-size * 0.9;
 
     a {
         background-color: #eee;
